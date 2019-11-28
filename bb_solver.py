@@ -48,7 +48,7 @@ class LPProblem(object):
 		new_prob1.problem = cp.Problem(new_prob1.objective, new_prob1.constraints)
 
 		new_prob2 = LPProblem(np.vstack((self.A, -np.eye(self.A.shape[1])[index])),
-							  np.hstack((self.b, np.ceil(value))), self.c)
+							  np.hstack((self.b, -np.ceil(value))), self.c)
 		new_prob2.x = self.x
 		new_prob2.objective = self.objective
 		new_prob2.constraints = self.constraints + [self.x[index] >= np.ceil(value)]
