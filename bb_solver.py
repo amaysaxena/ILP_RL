@@ -60,8 +60,15 @@ class BBSolver(object):
 	"""
 	A pure branch-and-bound solver that allows the specification of
 	a custom branching heuristic and fringe processing behavior.
+
+	heuristic should be a function that takes in the problem in standard form
+	along with the current solution, and returns the index of the variable
+	to branch on.
+
+	signature: heuristic(A, b, c, x)
+	returns: index in range(len(x))
 	"""
-	
+
 	def __init__(self, A, b, c, fringe_maker, heuristic):
 		self.fringe = fringe_maker()
 		self.problem = LPProblem(A, b, c)
