@@ -110,18 +110,18 @@ def random_heuristic(A, b, c, x):
 	return random.choice(nonint)
 
 def main():
+	np.random.seed(125)
 	# c = np.array([-100, -150])
 	# b = np.array([40000, 200])
 	# A = np.array([[8000, 4000],[15, 30]])
-	A, b, c = random_maxcut_instance(30, 50, list(9*np.random.uniform(size=100)))
+	# A, b, c = random_maxcut_instance(30, 50, list(9*np.random.uniform(size=100)))
+	A, b, c = random_knapsack_instance(15, np.arange(20), np.arange(20), np.arange(50, 150))
 	print("m, n =", A.shape)
 	solver = BBSolver(A, b, c, DFSFringe, random_heuristic)
 	sol, obj = solver.solve()
-	print("Solution:", sol)
-	print("Objective:", obj)
+	print("Solution:", np.rint(sol))
+	print("Objective:", int(obj))
 	print("Problems Expanded:", solver.num_problems_expanded)
 
 if __name__ == '__main__':
 	main()
-
-
