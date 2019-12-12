@@ -33,9 +33,9 @@ def random_maxcut_instance(n_vertices, n_edges, weight_population=None):
         0 <= x
         x \in Z
     """
-    A = np.zeros((3 * n_edges + n_vertices, n_vertices + n_edges), dtype=np.int32)
-    c = np.zeros(n_vertices + n_edges, dtype=np.int32)
-    b = np.zeros(3 * n_edges + n_vertices, dtype=np.int32)
+    A = np.zeros((3 * n_edges + n_vertices, n_vertices + n_edges), dtype=np.float32)
+    c = np.zeros(n_vertices + n_edges, dtype=np.float32)
+    b = np.zeros(3 * n_edges + n_vertices, dtype=np.float32)
     graph = random_connected_graph(n_vertices, n_edges, weight_population or [1])
 
     for i, (u, v) in enumerate(graph.edges):

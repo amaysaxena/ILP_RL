@@ -42,15 +42,20 @@ class BBModel(nn.Module):
 
 
 if __name__ == '__main__':
-    m, n = 30, 25
+    m, n, candidates = 30, 25, 5
     A = torch.ones((n, m))
     b = torch.Tensor(np.arange(n, dtype=np.float32))
     c = torch.Tensor(np.arange(m, dtype=np.float32))
     x = torch.ones(m)
-    branch_candidates = torch.LongTensor(np.arange(4, dtype=np.int32))
+    branch_candidates = torch.LongTensor(np.arange(candidates, dtype=np.int32))
 
     model = BBModel(m, n)
     t0 = time.time()
     out = model(A, b, c, x, branch_candidates)
     print(time.time() - t0)
     print(out)
+    for p in model.parameters():
+        if len(p.shape) == 2:
+            p[:, :] = 0
+    for p in model.parameters():
+        print(p)
