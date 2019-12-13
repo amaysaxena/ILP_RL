@@ -109,15 +109,14 @@ def random_heuristic(A, b, c, x):
 	return random.choice(nonint)
 
 def main():
+	np.random.seed(125)
 	A, b, c = random_maxcut_instance(30, 50, list(9*np.random.uniform(size=100)))
 	print("m, n =", A.shape)
 	solver = BBSolver(A, b, c, DFSFringe, random_heuristic)
 	sol, obj = solver.solve()
-	print("Solution:", sol)
-	print("Objective:", obj)
+	print("Solution:", np.rint(sol))
+	print("Objective:", int(obj))
 	print("Problems Expanded:", solver.num_problems_expanded)
 
 if __name__ == '__main__':
 	main()
-
-

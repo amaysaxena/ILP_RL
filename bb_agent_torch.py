@@ -55,10 +55,11 @@ def get_heuristic_from(model):
         # The above line just returns one sample from a categorical distribution
         # with probs given in the vector action_dist. I had to use item() to turn a 1 element tensor
         # into a number.
-        
+
     return rl_heuristic
 
 def rl_heuristic_example():
+    np.random.seed(125)
     A, b, c = random_maxcut_instance(5, 10, list(9*np.random.uniform(size=100)))
     m, n = A.shape
     rl_heuristic = get_heuristic_from(BBModel(n, m))
