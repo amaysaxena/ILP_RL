@@ -1,6 +1,9 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 import time
 import numpy as np
+from bb_solver import is_integer, BBSolver, DFSFringe, random_heuristic
+from generate_instances import random_maxcut_instance, random_packing_instance, random_knapsack_instance
+
 
 import torch
 from torch import nn
@@ -40,22 +43,30 @@ class BBModel(nn.Module):
         candidate_features = (1 / self.m) * torch.sum(dot_prods, dim=1)
         return F.softmax(candidate_features)
 
+# Example of how an agent may be used as a heuristic.
+def get_heuristic_from(model):
+    def rl_heuristic(A, b, c, x):
+        candidates = torch.LongTensor([i for i, v in enumerate(x) if not is_integer(v)])
+        A, b, c, x = torch.Tensor(A), torch.Tensor(b), torch.Tensor(c), torch.Tensor(x)
+        action_dist = model(A, b, c, x, candidates)
+        # During training, we should sample from the output distribution, but during
+        # testing, we should just take the argmax.
+        return candidates[torch.multinomial(action_dist, 1).item()].item() 
+        # The above line just returns one sample from a categorical distribution
+        # with probs given in the vector action_dist. I had to use item() to turn a 1 element tensor
+        # into a number.
+        
+    return rl_heuristic
+
+def rl_heuristic_example():
+    A, b, c = random_maxcut_instance(5, 10, list(9*np.random.uniform(size=100)))
+    m, n = A.shape
+    rl_heuristic = get_heuristic_from(BBModel(n, m))
+    solver = BBSolver(A, b, c, DFSFringe, rl_heuristic)
+    sol, obj = solver.solve()
+    print("Solution:", sol)
+    print("Objective:", obj)
+    print("Problems Expanded:", solver.num_problems_expanded)
 
 if __name__ == '__main__':
-    m, n, candidates = 30, 25, 5
-    A = torch.ones((n, m))
-    b = torch.Tensor(np.arange(n, dtype=np.float32))
-    c = torch.Tensor(np.arange(m, dtype=np.float32))
-    x = torch.ones(m)
-    branch_candidates = torch.LongTensor(np.arange(candidates, dtype=np.int32))
-
-    model = BBModel(m, n)
-    t0 = time.time()
-    out = model(A, b, c, x, branch_candidates)
-    print(time.time() - t0)
-    print(out)
-    for p in model.parameters():
-        if len(p.shape) == 2:
-            p[:, :] = 0
-    for p in model.parameters():
-        print(p)
+    rl_heuristic_example()

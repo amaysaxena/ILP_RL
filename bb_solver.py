@@ -20,7 +20,7 @@ class DFSFringe(object):
 
 Solution = namedtuple('Solution', ['solution', 'objective_value', 'is_integer'])
 
-def is_integer(a, tol=1e-5):
+def is_integer(a, tol=1e-3):
 	return min(abs(a - np.floor(a)), abs(a - np.ceil(a))) < tol
 
 class LPProblem(object):
@@ -88,7 +88,7 @@ class BBSolver(object):
 			problem = self.fringe.pop()
 			sol = problem.solve()
 			self.num_problems_expanded += 1
-			print("Solutions Expanded:", self.num_problems_expanded)
+			print("Problems Expanded:", self.num_problems_expanded)
 			if sol:
 				x, value, is_int = sol
 				if value > self.best_objective - 1e-4:
@@ -100,7 +100,6 @@ class BBSolver(object):
 				else:
 					# Gotta branch
 					index_to_branch = self.heuristic(problem.A, problem.b, problem.c, x)
-					# print("Index to branch:", index_to_branch)
 					for prob in problem.branch_on(index_to_branch, x[index_to_branch]):
 						self.fringe.push(prob)
 		return self.best_solution, self.best_objective
@@ -110,9 +109,6 @@ def random_heuristic(A, b, c, x):
 	return random.choice(nonint)
 
 def main():
-	# c = np.array([-100, -150])
-	# b = np.array([40000, 200])
-	# A = np.array([[8000, 4000],[15, 30]])
 	A, b, c = random_maxcut_instance(30, 50, list(9*np.random.uniform(size=100)))
 	print("m, n =", A.shape)
 	solver = BBSolver(A, b, c, DFSFringe, random_heuristic)
