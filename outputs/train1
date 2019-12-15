@@ -1,8 +1,3083 @@
 Using Python-MIP package version 1.5.3
 Beginning Training...
 ========= Iteration 0 =========
-Episode 0 Reward 640.0
+Episode 0 Reward 950.0
+Episode 1 Reward 940.0
+Episode 2 Reward 600.0
+Episode 3 Reward 950.0
+Episode 4 Reward 970.0
+Episode 5 Reward 950.0
+Episode 6 Reward 970.0
+Episode 7 Reward 960.0
+Episode 8 Reward 840.0
+Episode 9 Reward -1420.0
+
+Average Reward: 671.0
+
+========= Iteration 1 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 520.0
+Episode 2 Reward 750.0
+Episode 3 Reward 910.0
+Episode 4 Reward 960.0
+Episode 5 Reward 880.0
+Episode 6 Reward 970.0
+Episode 7 Reward -310.0
+Episode 8 Reward 690.0
+Episode 9 Reward 960.0
+
+Average Reward: 711.0
+
+========= Iteration 2 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 900.0
+Episode 2 Reward 960.0
+Episode 3 Reward 670.0
+Episode 4 Reward -280.0
+Episode 5 Reward 860.0
+Episode 6 Reward 660.0
+Episode 7 Reward 960.0
+Episode 8 Reward 970.0
+Episode 9 Reward 950.0
+
+Average Reward: 761.0
+
+========= Iteration 3 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 920.0
+Episode 2 Reward 960.0
+Episode 3 Reward 970.0
+Episode 4 Reward 940.0
+Episode 5 Reward 930.0
+Episode 6 Reward 880.0
+Episode 7 Reward 960.0
+Episode 8 Reward 920.0
+Episode 9 Reward 940.0
+
+Average Reward: 939.0
+
+========= Iteration 4 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 810.0
+Episode 2 Reward 930.0
+Episode 3 Reward 750.0
+Episode 4 Reward 920.0
+Episode 5 Reward 930.0
+Episode 6 Reward 480.0
+Episode 7 Reward 710.0
+Episode 8 Reward 740.0
+Episode 9 Reward 950.0
+
+Average Reward: 819.0
+
+========= Iteration 5 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 930.0
+Episode 2 Reward 910.0
+Episode 3 Reward 970.0
+Episode 4 Reward 310.0
+Episode 5 Reward 910.0
+Episode 6 Reward 930.0
+Episode 7 Reward 470.0
+Episode 8 Reward 920.0
+Episode 9 Reward 930.0
+
+Average Reward: 821.0
+
+========= Iteration 6 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 790.0
+Episode 2 Reward 710.0
+Episode 3 Reward 960.0
+Episode 4 Reward 910.0
+Episode 5 Reward 970.0
+Episode 6 Reward 920.0
+Episode 7 Reward 780.0
+Episode 8 Reward 970.0
+Episode 9 Reward 960.0
+
+Average Reward: 881.0
+
+========= Iteration 7 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 940.0
+Episode 2 Reward 910.0
+Episode 3 Reward 800.0
+Episode 4 Reward 940.0
+Episode 5 Reward 950.0
+Episode 6 Reward 600.0
+Episode 7 Reward 930.0
+Episode 8 Reward -1510.0
+Episode 9 Reward 960.0
+
+Average Reward: 645.0
+
+========= Iteration 8 =========
+Episode 0 Reward 440.0
+Episode 1 Reward 920.0
+Episode 2 Reward 910.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 180.0
+Episode 6 Reward 960.0
+Episode 7 Reward 960.0
+Episode 8 Reward 670.0
+Episode 9 Reward 960.0
+
+Average Reward: 792.0
+
+========= Iteration 9 =========
+Episode 0 Reward 880.0
+Episode 1 Reward 960.0
+Episode 2 Reward 960.0
+Episode 3 Reward 490.0
+Episode 4 Reward 950.0
+Episode 5 Reward 900.0
+Episode 6 Reward 960.0
+Episode 7 Reward -670.0
+Episode 8 Reward 900.0
+Episode 9 Reward 970.0
+
+Average Reward: 730.0
+
+========= Iteration 10 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 840.0
+Episode 2 Reward 970.0
+Episode 3 Reward 960.0
+Episode 4 Reward 920.0
+Episode 5 Reward 960.0
+Episode 6 Reward 810.0
+Episode 7 Reward 890.0
+Episode 8 Reward 870.0
+Episode 9 Reward 910.0
+
+Average Reward: 900.0
+
+========= Iteration 11 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 840.0
+Episode 2 Reward 960.0
+Episode 3 Reward -1720.0
+Episode 4 Reward 580.0
+Episode 5 Reward 650.0
+Episode 6 Reward 930.0
+Episode 7 Reward 920.0
+Episode 8 Reward -1330.0
+Episode 9 Reward 880.0
+
+Average Reward: 367.0
+
+========= Iteration 12 =========
+Episode 0 Reward 830.0
+Episode 1 Reward 710.0
+Episode 2 Reward 970.0
+Episode 3 Reward 960.0
+Episode 4 Reward 530.0
+Episode 5 Reward 850.0
+Episode 6 Reward 960.0
+Episode 7 Reward 860.0
+Episode 8 Reward 590.0
+Episode 9 Reward 960.0
+
+Average Reward: 822.0
+
+========= Iteration 13 =========
+Episode 0 Reward 650.0
+Episode 1 Reward 860.0
+Episode 2 Reward 940.0
+Episode 3 Reward 950.0
+Episode 4 Reward 960.0
+Episode 5 Reward -3830.0
+Episode 6 Reward 960.0
+Episode 7 Reward 940.0
+Episode 8 Reward -1820.0
+Episode 9 Reward 570.0
+
+Average Reward: 118.0
+
+========= Iteration 14 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 960.0
+Episode 2 Reward 880.0
+Episode 3 Reward 870.0
+Episode 4 Reward 610.0
+Episode 5 Reward 920.0
+Episode 6 Reward 810.0
+Episode 7 Reward 960.0
+Episode 8 Reward 960.0
+Episode 9 Reward 800.0
+
+Average Reward: 849.0
+
+========= Iteration 15 =========
+Episode 0 Reward 960.0
+Episode 1 Reward -110.0
+Episode 2 Reward 970.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 890.0
+Episode 6 Reward 790.0
+Episode 7 Reward -430.0
+Episode 8 Reward 780.0
+Episode 9 Reward 440.0
+
+Average Reward: 621.0
+
+========= Iteration 16 =========
+Episode 0 Reward 670.0
+Episode 1 Reward 960.0
+Episode 2 Reward 950.0
+Episode 3 Reward 970.0
+Episode 4 Reward 660.0
+Episode 5 Reward 970.0
+Episode 6 Reward 740.0
+Episode 7 Reward -870.0
+Episode 8 Reward 960.0
+Episode 9 Reward -2220.0
+
+Average Reward: 379.0
+
+========= Iteration 17 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 630.0
+Episode 2 Reward 610.0
+Episode 3 Reward 780.0
+Episode 4 Reward 950.0
+Episode 5 Reward 890.0
+Episode 6 Reward 930.0
+Episode 7 Reward 950.0
+Episode 8 Reward 940.0
+Episode 9 Reward 850.0
+
+Average Reward: 840.0
+
+========= Iteration 18 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 710.0
+Episode 2 Reward 720.0
+Episode 3 Reward 670.0
+Episode 4 Reward 750.0
+Episode 5 Reward 800.0
+Episode 6 Reward 930.0
+Episode 7 Reward 930.0
+Episode 8 Reward 960.0
+Episode 9 Reward 940.0
+
+Average Reward: 833.0
+
+========= Iteration 19 =========
+Episode 0 Reward 950.0
 Episode 1 Reward 950.0
+Episode 2 Reward -8270.0
+Episode 3 Reward 910.0
+Episode 4 Reward 760.0
+Episode 5 Reward 860.0
+Episode 6 Reward 840.0
+Episode 7 Reward 750.0
+Episode 8 Reward 930.0
+Episode 9 Reward 930.0
+
+Average Reward: -39.0
+
+========= Iteration 20 =========
+Episode 0 Reward 710.0
+Episode 1 Reward 970.0
+Episode 2 Reward -390.0
+Episode 3 Reward 890.0
+Episode 4 Reward 870.0
+Episode 5 Reward 970.0
+Episode 6 Reward 840.0
+Episode 7 Reward 950.0
+Episode 8 Reward 670.0
+Episode 9 Reward 0.0
+
+Average Reward: 648.0
+
+========= Iteration 21 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 970.0
+Episode 2 Reward 970.0
+Episode 3 Reward 950.0
+Episode 4 Reward 940.0
+Episode 5 Reward 970.0
+Episode 6 Reward 870.0
+Episode 7 Reward 700.0
+Episode 8 Reward 820.0
+Episode 9 Reward 940.0
+
+Average Reward: 909.0
+
+========= Iteration 22 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 860.0
+Episode 2 Reward 940.0
+Episode 3 Reward 820.0
+Episode 4 Reward 960.0
+Episode 5 Reward 960.0
+Episode 6 Reward 800.0
+Episode 7 Reward 700.0
+Episode 8 Reward 480.0
+Episode 9 Reward 860.0
+
+Average Reward: 822.0
+
+========= Iteration 23 =========
+Episode 0 Reward 390.0
+Episode 1 Reward 900.0
+Episode 2 Reward 950.0
+Episode 3 Reward 830.0
+Episode 4 Reward 880.0
+Episode 5 Reward 960.0
+Episode 6 Reward 970.0
+Episode 7 Reward 960.0
+Episode 8 Reward 700.0
+Episode 9 Reward 920.0
+
+Average Reward: 846.0
+
+========= Iteration 24 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 970.0
+Episode 2 Reward 710.0
+Episode 3 Reward 960.0
+Episode 4 Reward 330.0
+Episode 5 Reward 540.0
+Episode 6 Reward 880.0
+Episode 7 Reward 890.0
+Episode 8 Reward 900.0
+Episode 9 Reward 840.0
+
+Average Reward: 788.0
+
+========= Iteration 25 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 910.0
+Episode 2 Reward 900.0
+Episode 3 Reward 970.0
+Episode 4 Reward 940.0
+Episode 5 Reward 760.0
+Episode 6 Reward 490.0
+Episode 7 Reward 840.0
+Episode 8 Reward 940.0
+Episode 9 Reward 960.0
+
+Average Reward: 860.0
+
+========= Iteration 26 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 920.0
+Episode 2 Reward 940.0
+Episode 3 Reward 870.0
+Episode 4 Reward -1170.0
+Episode 5 Reward -2210.0
+Episode 6 Reward 840.0
+Episode 7 Reward 940.0
+Episode 8 Reward 670.0
+Episode 9 Reward 670.0
+
+Average Reward: 334.0
+
+========= Iteration 27 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 950.0
+Episode 2 Reward 830.0
+Episode 3 Reward 950.0
+Episode 4 Reward 950.0
+Episode 5 Reward -760.0
+Episode 6 Reward 640.0
+Episode 7 Reward 830.0
+Episode 8 Reward 700.0
+Episode 9 Reward 940.0
+
+Average Reward: 681.0
+
+========= Iteration 28 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 800.0
+Episode 2 Reward 970.0
+Episode 3 Reward 690.0
+Episode 4 Reward 950.0
+Episode 5 Reward 960.0
+Episode 6 Reward 960.0
+Episode 7 Reward 920.0
+Episode 8 Reward 630.0
+Episode 9 Reward 970.0
+
+Average Reward: 881.0
+
+========= Iteration 29 =========
+Episode 0 Reward 510.0
+Episode 1 Reward 510.0
+Episode 2 Reward 960.0
+Episode 3 Reward 890.0
+Episode 4 Reward 580.0
+Episode 5 Reward -1050.0
+Episode 6 Reward 670.0
+Episode 7 Reward 960.0
+Episode 8 Reward 750.0
+Episode 9 Reward 940.0
+
+Average Reward: 572.0
+
+========= Iteration 30 =========
+Episode 0 Reward 790.0
+Episode 1 Reward 770.0
+Episode 2 Reward 930.0
+Episode 3 Reward 900.0
+Episode 4 Reward -5300.0
+Episode 5 Reward 920.0
+Episode 6 Reward 960.0
+Episode 7 Reward 880.0
+Episode 8 Reward 900.0
+Episode 9 Reward 820.0
+
+Average Reward: 257.0
+
+========= Iteration 31 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 430.0
+Episode 2 Reward 960.0
+Episode 3 Reward 940.0
+Episode 4 Reward 530.0
+Episode 5 Reward 960.0
+Episode 6 Reward 900.0
+Episode 7 Reward 70.0
+Episode 8 Reward 660.0
+Episode 9 Reward 960.0
+
+Average Reward: 737.0
+
+========= Iteration 32 =========
+Episode 0 Reward -60.0
+Episode 1 Reward 940.0
+Episode 2 Reward 860.0
+Episode 3 Reward 930.0
+Episode 4 Reward 940.0
+Episode 5 Reward 630.0
+Episode 6 Reward 940.0
+Episode 7 Reward 950.0
+Episode 8 Reward 970.0
+Episode 9 Reward 910.0
+
+Average Reward: 801.0
+
+========= Iteration 33 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 900.0
+Episode 2 Reward 970.0
+Episode 3 Reward 840.0
+Episode 4 Reward 940.0
+Episode 5 Reward 970.0
+Episode 6 Reward 350.0
+Episode 7 Reward 970.0
+Episode 8 Reward 710.0
+Episode 9 Reward 940.0
+
+Average Reward: 843.0
+
+========= Iteration 34 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 740.0
+Episode 2 Reward -1020.0
+Episode 3 Reward 970.0
+Episode 4 Reward 970.0
+Episode 5 Reward 20.0
+Episode 6 Reward 950.0
+Episode 7 Reward 970.0
+Episode 8 Reward 970.0
+Episode 9 Reward 930.0
+
+Average Reward: 642.0
+
+========= Iteration 35 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 930.0
+Episode 2 Reward 940.0
+Episode 3 Reward 900.0
+Episode 4 Reward 610.0
+Episode 5 Reward 970.0
+Episode 6 Reward 500.0
+Episode 7 Reward 790.0
+Episode 8 Reward 940.0
+Episode 9 Reward 710.0
+
+Average Reward: 821.0
+
+========= Iteration 36 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 950.0
+Episode 2 Reward 970.0
+Episode 3 Reward 770.0
+Episode 4 Reward 760.0
+Episode 5 Reward 950.0
+Episode 6 Reward 970.0
+Episode 7 Reward 960.0
+Episode 8 Reward 970.0
+Episode 9 Reward 960.0
+
+Average Reward: 919.0
+
+========= Iteration 37 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 940.0
+Episode 2 Reward 930.0
+Episode 3 Reward 560.0
+Episode 4 Reward 940.0
+Episode 5 Reward 890.0
+Episode 6 Reward 970.0
+Episode 7 Reward 970.0
+Episode 8 Reward 750.0
+Episode 9 Reward -7230.0
+
+Average Reward: 56.0
+
+========= Iteration 38 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 790.0
+Episode 2 Reward 930.0
+Episode 3 Reward 970.0
+Episode 4 Reward 870.0
+Episode 5 Reward 960.0
+Episode 6 Reward 870.0
+Episode 7 Reward 810.0
+Episode 8 Reward 620.0
+Episode 9 Reward 890.0
+
+Average Reward: 843.0
+
+========= Iteration 39 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 930.0
+Episode 2 Reward 930.0
+Episode 3 Reward 930.0
+Episode 4 Reward 960.0
+Episode 5 Reward 570.0
+Episode 6 Reward 940.0
+Episode 7 Reward 350.0
+Episode 8 Reward 970.0
+Episode 9 Reward 930.0
+
+Average Reward: 823.0
+
+========= Iteration 40 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 940.0
+Episode 2 Reward 940.0
+Episode 3 Reward 930.0
+Episode 4 Reward 930.0
+Episode 5 Reward 920.0
+Episode 6 Reward 910.0
+Episode 7 Reward 960.0
+Episode 8 Reward 880.0
+Episode 9 Reward 710.0
+
+Average Reward: 908.0
+
+========= Iteration 41 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 340.0
+Episode 2 Reward 830.0
+Episode 3 Reward 970.0
+Episode 4 Reward 730.0
+Episode 5 Reward 940.0
+Episode 6 Reward 920.0
+Episode 7 Reward 690.0
+Episode 8 Reward 970.0
+Episode 9 Reward 900.0
+
+Average Reward: 815.0
+
+========= Iteration 42 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 800.0
+Episode 2 Reward 710.0
+Episode 3 Reward 910.0
+Episode 4 Reward 740.0
+Episode 5 Reward 920.0
+Episode 6 Reward 900.0
+Episode 7 Reward 840.0
+Episode 8 Reward 970.0
+Episode 9 Reward 900.0
+
+Average Reward: 866.0
+
+========= Iteration 43 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 890.0
+Episode 2 Reward -650.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 840.0
+Episode 6 Reward 830.0
+Episode 7 Reward 920.0
+Episode 8 Reward 960.0
+Episode 9 Reward 970.0
+
+Average Reward: 764.0
+
+========= Iteration 44 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 650.0
+Episode 2 Reward 950.0
+Episode 3 Reward 970.0
+Episode 4 Reward 890.0
+Episode 5 Reward 380.0
+Episode 6 Reward 940.0
+Episode 7 Reward 730.0
+Episode 8 Reward 820.0
+Episode 9 Reward 480.0
+
+Average Reward: 777.0
+
+========= Iteration 45 =========
+Episode 0 Reward 440.0
+Episode 1 Reward 860.0
+Episode 2 Reward 930.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 240.0
+Episode 6 Reward 120.0
+Episode 7 Reward 580.0
+Episode 8 Reward 950.0
+Episode 9 Reward 570.0
+
+Average Reward: 661.0
+
+========= Iteration 46 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 250.0
+Episode 2 Reward 930.0
+Episode 3 Reward 490.0
+Episode 4 Reward 880.0
+Episode 5 Reward 630.0
+Episode 6 Reward 810.0
+Episode 7 Reward 890.0
+Episode 8 Reward 960.0
+Episode 9 Reward 880.0
+
+Average Reward: 768.0
+
+========= Iteration 47 =========
+Episode 0 Reward -2020.0
+Episode 1 Reward 690.0
+Episode 2 Reward 930.0
+Episode 3 Reward 940.0
+Episode 4 Reward 970.0
+Episode 5 Reward 810.0
+Episode 6 Reward 890.0
+Episode 7 Reward 890.0
+Episode 8 Reward 960.0
+Episode 9 Reward 850.0
+
+Average Reward: 591.0
+
+========= Iteration 48 =========
+Episode 0 Reward 750.0
+Episode 1 Reward 950.0
+Episode 2 Reward 750.0
+Episode 3 Reward 750.0
+Episode 4 Reward 870.0
+Episode 5 Reward 770.0
+Episode 6 Reward 790.0
+Episode 7 Reward 890.0
+Episode 8 Reward 850.0
+Episode 9 Reward 950.0
+
+Average Reward: 832.0
+
+========= Iteration 49 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 950.0
+Episode 2 Reward 930.0
+Episode 3 Reward 950.0
+Episode 4 Reward 960.0
+Episode 5 Reward 930.0
+Episode 6 Reward 870.0
+Episode 7 Reward 590.0
+Episode 8 Reward 730.0
+Episode 9 Reward 700.0
+
+Average Reward: 846.0
+
+========= Iteration 50 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 940.0
+Episode 2 Reward 630.0
+Episode 3 Reward 690.0
+Episode 4 Reward 960.0
+Episode 5 Reward 780.0
+Episode 6 Reward 950.0
+Episode 7 Reward 710.0
+Episode 8 Reward 790.0
+Episode 9 Reward 890.0
+
+Average Reward: 828.0
+
+========= Iteration 51 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 460.0
+Episode 2 Reward 950.0
+Episode 3 Reward 970.0
+Episode 4 Reward 920.0
+Episode 5 Reward 940.0
+Episode 6 Reward -150.0
+Episode 7 Reward 880.0
+Episode 8 Reward 240.0
+Episode 9 Reward 820.0
+
+Average Reward: 698.0
+
+========= Iteration 52 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 300.0
+Episode 2 Reward 850.0
+Episode 3 Reward 850.0
+Episode 4 Reward 550.0
+Episode 5 Reward 840.0
+Episode 6 Reward 900.0
+Episode 7 Reward 820.0
+Episode 8 Reward 950.0
+Episode 9 Reward 750.0
+
+Average Reward: 778.0
+
+========= Iteration 53 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 880.0
+Episode 2 Reward -640.0
+Episode 3 Reward 550.0
+Episode 4 Reward 960.0
+Episode 5 Reward 930.0
+Episode 6 Reward 830.0
+Episode 7 Reward 920.0
+Episode 8 Reward 950.0
+Episode 9 Reward 470.0
+
+Average Reward: 679.0
+
+========= Iteration 54 =========
+Episode 0 Reward 810.0
+Episode 1 Reward 880.0
+Episode 2 Reward 960.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 80.0
+Episode 6 Reward 850.0
+Episode 7 Reward 960.0
+Episode 8 Reward 960.0
+Episode 9 Reward 610.0
+
+Average Reward: 803.0
+
+========= Iteration 55 =========
+Episode 0 Reward 800.0
+Episode 1 Reward 960.0
+Episode 2 Reward -440.0
+Episode 3 Reward 900.0
+Episode 4 Reward 540.0
+Episode 5 Reward 720.0
+Episode 6 Reward 540.0
+Episode 7 Reward 870.0
+Episode 8 Reward 940.0
+Episode 9 Reward 930.0
+
+Average Reward: 676.0
+
+========= Iteration 56 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 970.0
+Episode 2 Reward 430.0
+Episode 3 Reward 770.0
+Episode 4 Reward 910.0
+Episode 5 Reward 750.0
+Episode 6 Reward 920.0
+Episode 7 Reward 960.0
+Episode 8 Reward 970.0
+Episode 9 Reward 780.0
+
+Average Reward: 840.0
+
+========= Iteration 57 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 670.0
+Episode 2 Reward 950.0
+Episode 3 Reward 770.0
+Episode 4 Reward 770.0
+Episode 5 Reward -40.0
+Episode 6 Reward 870.0
+Episode 7 Reward 880.0
+Episode 8 Reward -400.0
+Episode 9 Reward -3870.0
+
+Average Reward: 132.0
+
+========= Iteration 58 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 690.0
+Episode 2 Reward 660.0
+Episode 3 Reward 480.0
+Episode 4 Reward 900.0
+Episode 5 Reward 960.0
+Episode 6 Reward 930.0
+Episode 7 Reward 950.0
+Episode 8 Reward 840.0
+Episode 9 Reward 680.0
+
+Average Reward: 805.0
+
+========= Iteration 59 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 870.0
+Episode 2 Reward 920.0
+Episode 3 Reward 430.0
+Episode 4 Reward 970.0
+Episode 5 Reward 110.0
+Episode 6 Reward 960.0
+Episode 7 Reward 580.0
+Episode 8 Reward 780.0
+Episode 9 Reward 940.0
+
+Average Reward: 742.0
+
+========= Iteration 60 =========
+Episode 0 Reward 800.0
+Episode 1 Reward 810.0
+Episode 2 Reward 960.0
+Episode 3 Reward 950.0
+Episode 4 Reward 950.0
+Episode 5 Reward 880.0
+Episode 6 Reward 780.0
+Episode 7 Reward 950.0
+Episode 8 Reward 900.0
+Episode 9 Reward 930.0
+
+Average Reward: 891.0
+
+========= Iteration 61 =========
+Episode 0 Reward 980.0
+Episode 1 Reward 920.0
+Episode 2 Reward 920.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 960.0
+Episode 6 Reward 970.0
+Episode 7 Reward 960.0
+Episode 8 Reward 940.0
+Episode 9 Reward 970.0
+
+Average Reward: 954.0
+
+========= Iteration 62 =========
+Episode 0 Reward 820.0
+Episode 1 Reward 930.0
+Episode 2 Reward 330.0
+Episode 3 Reward 910.0
+Episode 4 Reward 910.0
+Episode 5 Reward 860.0
+Episode 6 Reward 920.0
+Episode 7 Reward 900.0
+Episode 8 Reward 850.0
+Episode 9 Reward 430.0
+
+Average Reward: 786.0
+
+========= Iteration 63 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 780.0
+Episode 2 Reward 940.0
+Episode 3 Reward 790.0
+Episode 4 Reward 640.0
+Episode 5 Reward 880.0
+Episode 6 Reward 920.0
+Episode 7 Reward 770.0
+Episode 8 Reward -20.0
+Episode 9 Reward 960.0
+
+Average Reward: 759.0
+
+========= Iteration 64 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 690.0
+Episode 2 Reward 970.0
+Episode 3 Reward 940.0
+Episode 4 Reward 840.0
+Episode 5 Reward 970.0
+Episode 6 Reward -1080.0
+Episode 7 Reward 810.0
+Episode 8 Reward 950.0
+Episode 9 Reward 950.0
+
+Average Reward: 696.0
+
+========= Iteration 65 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 960.0
+Episode 2 Reward 860.0
+Episode 3 Reward 410.0
+Episode 4 Reward 960.0
+Episode 5 Reward 950.0
+Episode 6 Reward 570.0
+Episode 7 Reward 950.0
+Episode 8 Reward 850.0
+Episode 9 Reward 920.0
+
+Average Reward: 836.0
+
+========= Iteration 66 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 950.0
+Episode 2 Reward 940.0
+Episode 3 Reward 760.0
+Episode 4 Reward 920.0
+Episode 5 Reward 760.0
+Episode 6 Reward 970.0
+Episode 7 Reward 780.0
+Episode 8 Reward 960.0
+Episode 9 Reward 910.0
+
+Average Reward: 880.0
+
+========= Iteration 67 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 770.0
+Episode 2 Reward 960.0
+Episode 3 Reward 910.0
+Episode 4 Reward 890.0
+Episode 5 Reward 870.0
+Episode 6 Reward 940.0
+Episode 7 Reward 690.0
+Episode 8 Reward 610.0
+Episode 9 Reward 950.0
+
+Average Reward: 853.0
+
+========= Iteration 68 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 970.0
+Episode 2 Reward 790.0
+Episode 3 Reward -460.0
+Episode 4 Reward 930.0
+Episode 5 Reward 900.0
+Episode 6 Reward 960.0
+Episode 7 Reward 890.0
+Episode 8 Reward 630.0
+Episode 9 Reward 910.0
+
+Average Reward: 741.0
+
+========= Iteration 69 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 960.0
+Episode 2 Reward 690.0
+Episode 3 Reward 930.0
+Episode 4 Reward 950.0
+Episode 5 Reward 960.0
+Episode 6 Reward 960.0
+Episode 7 Reward 880.0
+Episode 8 Reward 410.0
+Episode 9 Reward 930.0
+
+Average Reward: 863.0
+
+========= Iteration 70 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 880.0
+Episode 2 Reward 960.0
+Episode 3 Reward 790.0
+Episode 4 Reward 960.0
+Episode 5 Reward 970.0
+Episode 6 Reward 930.0
+Episode 7 Reward 960.0
+Episode 8 Reward 880.0
+Episode 9 Reward 870.0
+
+Average Reward: 898.0
+
+========= Iteration 71 =========
+Episode 0 Reward 900.0
+Episode 1 Reward 860.0
+Episode 2 Reward 750.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 640.0
+Episode 6 Reward 890.0
+Episode 7 Reward 720.0
+Episode 8 Reward 930.0
+Episode 9 Reward 930.0
+
+Average Reward: 854.0
+
+========= Iteration 72 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 920.0
+Episode 2 Reward 820.0
+Episode 3 Reward 970.0
+Episode 4 Reward 940.0
+Episode 5 Reward 930.0
+Episode 6 Reward 960.0
+Episode 7 Reward 970.0
+Episode 8 Reward 940.0
+Episode 9 Reward 960.0
+
+Average Reward: 938.0
+
+========= Iteration 73 =========
+Episode 0 Reward 770.0
+Episode 1 Reward 790.0
+Episode 2 Reward 970.0
+Episode 3 Reward 830.0
+Episode 4 Reward 920.0
+Episode 5 Reward 960.0
+Episode 6 Reward 940.0
+Episode 7 Reward 660.0
+Episode 8 Reward -3070.0
+Episode 9 Reward 970.0
+
+Average Reward: 474.0
+
+========= Iteration 74 =========
+Episode 0 Reward 800.0
+Episode 1 Reward 970.0
+Episode 2 Reward 960.0
+Episode 3 Reward 790.0
+Episode 4 Reward 880.0
+Episode 5 Reward 580.0
+Episode 6 Reward 940.0
+Episode 7 Reward 940.0
+Episode 8 Reward 840.0
+Episode 9 Reward 940.0
+
+Average Reward: 864.0
+
+========= Iteration 75 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 860.0
+Episode 2 Reward 940.0
+Episode 3 Reward 490.0
+Episode 4 Reward 950.0
+Episode 5 Reward 640.0
+Episode 6 Reward 930.0
+Episode 7 Reward 840.0
+Episode 8 Reward 510.0
+Episode 9 Reward 970.0
+
+Average Reward: 808.0
+
+========= Iteration 76 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 720.0
+Episode 2 Reward 960.0
+Episode 3 Reward 930.0
+Episode 4 Reward 750.0
+Episode 5 Reward 810.0
+Episode 6 Reward 920.0
+Episode 7 Reward 720.0
+Episode 8 Reward 750.0
+Episode 9 Reward 750.0
+
+Average Reward: 828.0
+
+========= Iteration 77 =========
+Episode 0 Reward 610.0
+Episode 1 Reward 850.0
+Episode 2 Reward 970.0
+Episode 3 Reward 960.0
+Episode 4 Reward -1320.0
+Episode 5 Reward 910.0
+Episode 6 Reward 920.0
+Episode 7 Reward -9250.0
+Episode 8 Reward 200.0
+Episode 9 Reward 960.0
+
+Average Reward: -419.0
+
+========= Iteration 78 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 750.0
+Episode 2 Reward 850.0
+Episode 3 Reward 970.0
+Episode 4 Reward 970.0
+Episode 5 Reward 780.0
+Episode 6 Reward 930.0
+Episode 7 Reward 820.0
+Episode 8 Reward 930.0
+Episode 9 Reward 940.0
+
+Average Reward: 890.0
+
+========= Iteration 79 =========
+Episode 0 Reward 740.0
+Episode 1 Reward 930.0
+Episode 2 Reward 850.0
+Episode 3 Reward 930.0
+Episode 4 Reward 960.0
+Episode 5 Reward -2850.0
+Episode 6 Reward 680.0
+Episode 7 Reward 950.0
+Episode 8 Reward 880.0
+Episode 9 Reward 910.0
+
+Average Reward: 498.0
+
+========= Iteration 80 =========
+Episode 0 Reward 670.0
+Episode 1 Reward 960.0
+Episode 2 Reward 420.0
+Episode 3 Reward 700.0
+Episode 4 Reward 800.0
+Episode 5 Reward 630.0
+Episode 6 Reward 960.0
+Episode 7 Reward 790.0
+Episode 8 Reward 930.0
+Episode 9 Reward 760.0
+
+Average Reward: 762.0
+
+========= Iteration 81 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 890.0
+Episode 2 Reward 960.0
+Episode 3 Reward 710.0
+Episode 4 Reward -30.0
+Episode 5 Reward 780.0
+Episode 6 Reward 880.0
+Episode 7 Reward -1800.0
+Episode 8 Reward -2140.0
+Episode 9 Reward 890.0
+
+Average Reward: 207.0
+
+========= Iteration 82 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 960.0
+Episode 2 Reward -340.0
+Episode 3 Reward 940.0
+Episode 4 Reward 660.0
+Episode 5 Reward 480.0
+Episode 6 Reward 970.0
+Episode 7 Reward -1500.0
+Episode 8 Reward 940.0
+Episode 9 Reward 870.0
+
+Average Reward: 494.0
+
+========= Iteration 83 =========
+Episode 0 Reward 330.0
+Episode 1 Reward -540.0
+Episode 2 Reward 770.0
+Episode 3 Reward 630.0
+Episode 4 Reward 880.0
+Episode 5 Reward 940.0
+Episode 6 Reward 840.0
+Episode 7 Reward 900.0
+Episode 8 Reward 980.0
+Episode 9 Reward 970.0
+
+Average Reward: 670.0
+
+========= Iteration 84 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 710.0
+Episode 2 Reward 960.0
+Episode 3 Reward 870.0
+Episode 4 Reward 840.0
+Episode 5 Reward 960.0
+Episode 6 Reward 720.0
+Episode 7 Reward 970.0
+Episode 8 Reward 780.0
+Episode 9 Reward 960.0
+
+Average Reward: 871.0
+
+========= Iteration 85 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 680.0
+Episode 2 Reward 950.0
+Episode 3 Reward 930.0
+Episode 4 Reward 930.0
+Episode 5 Reward 970.0
+Episode 6 Reward -1830.0
+Episode 7 Reward 960.0
+Episode 8 Reward -710.0
+Episode 9 Reward 920.0
+
+Average Reward: 476.0
+
+========= Iteration 86 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 840.0
+Episode 2 Reward 960.0
+Episode 3 Reward 950.0
+Episode 4 Reward 950.0
+Episode 5 Reward 950.0
+Episode 6 Reward 950.0
+Episode 7 Reward 930.0
+Episode 8 Reward 900.0
+Episode 9 Reward 930.0
+
+Average Reward: 933.0
+
+========= Iteration 87 =========
+Episode 0 Reward 810.0
+Episode 1 Reward 960.0
+Episode 2 Reward 630.0
+Episode 3 Reward 930.0
+Episode 4 Reward 540.0
+Episode 5 Reward 970.0
+Episode 6 Reward 760.0
+Episode 7 Reward 920.0
+Episode 8 Reward 690.0
+Episode 9 Reward -370.0
+
+Average Reward: 684.0
+
+========= Iteration 88 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 820.0
+Episode 2 Reward 930.0
+Episode 3 Reward 970.0
+Episode 4 Reward 960.0
+Episode 5 Reward 610.0
+Episode 6 Reward 960.0
+Episode 7 Reward 970.0
+Episode 8 Reward 960.0
+Episode 9 Reward 620.0
+
+Average Reward: 866.0
+
+========= Iteration 89 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 930.0
+Episode 2 Reward 720.0
+Episode 3 Reward 670.0
+Episode 4 Reward 610.0
+Episode 5 Reward 930.0
+Episode 6 Reward 960.0
+Episode 7 Reward 920.0
+Episode 8 Reward 930.0
+Episode 9 Reward 820.0
+
+Average Reward: 844.0
+
+========= Iteration 90 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 960.0
+Episode 2 Reward 900.0
+Episode 3 Reward 700.0
+Episode 4 Reward 960.0
+Episode 5 Reward 970.0
+Episode 6 Reward 930.0
+Episode 7 Reward 930.0
+Episode 8 Reward 900.0
+Episode 9 Reward 950.0
+
+Average Reward: 913.0
+
+========= Iteration 91 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 960.0
+Episode 2 Reward 930.0
+Episode 3 Reward 960.0
+Episode 4 Reward 930.0
+Episode 5 Reward 830.0
+Episode 6 Reward 880.0
+Episode 7 Reward 960.0
+Episode 8 Reward 970.0
+Episode 9 Reward 810.0
+
+Average Reward: 920.0
+
+========= Iteration 92 =========
+Episode 0 Reward -4990.0
+Episode 1 Reward -460.0
+Episode 2 Reward 950.0
+Episode 3 Reward 910.0
+Episode 4 Reward 970.0
+Episode 5 Reward 380.0
+Episode 6 Reward 790.0
+Episode 7 Reward 730.0
+Episode 8 Reward 960.0
+Episode 9 Reward 750.0
+
+Average Reward: 99.0
+
+========= Iteration 93 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 370.0
+Episode 2 Reward 920.0
+Episode 3 Reward 170.0
+Episode 4 Reward 820.0
+Episode 5 Reward 960.0
+Episode 6 Reward 810.0
+Episode 7 Reward 940.0
+Episode 8 Reward 930.0
+Episode 9 Reward 930.0
+
+Average Reward: 769.0
+
+========= Iteration 94 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 960.0
+Episode 2 Reward 970.0
+Episode 3 Reward 890.0
+Episode 4 Reward 920.0
+Episode 5 Reward 930.0
+Episode 6 Reward 940.0
+Episode 7 Reward -510.0
+Episode 8 Reward 930.0
+Episode 9 Reward 690.0
+
+Average Reward: 766.0
+
+========= Iteration 95 =========
+Episode 0 Reward 770.0
+Episode 1 Reward 890.0
+Episode 2 Reward 800.0
+Episode 3 Reward 710.0
+Episode 4 Reward 900.0
+Episode 5 Reward 930.0
+Episode 6 Reward 950.0
+Episode 7 Reward 730.0
+Episode 8 Reward 940.0
+Episode 9 Reward 750.0
+
+Average Reward: 837.0
+
+========= Iteration 96 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 870.0
+Episode 2 Reward -5840.0
+Episode 3 Reward 970.0
+Episode 4 Reward 960.0
+Episode 5 Reward 330.0
+Episode 6 Reward 580.0
+Episode 7 Reward 950.0
+Episode 8 Reward 620.0
+Episode 9 Reward 930.0
+
+Average Reward: 131.0
+
+========= Iteration 97 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 620.0
+Episode 2 Reward 550.0
+Episode 3 Reward 770.0
+Episode 4 Reward 970.0
+Episode 5 Reward 820.0
+Episode 6 Reward 970.0
+Episode 7 Reward 900.0
+Episode 8 Reward 730.0
+Episode 9 Reward 500.0
+
+Average Reward: 777.0
+
+========= Iteration 98 =========
+Episode 0 Reward 880.0
+Episode 1 Reward 880.0
+Episode 2 Reward 620.0
+Episode 3 Reward 940.0
+Episode 4 Reward 900.0
+Episode 5 Reward 940.0
+Episode 6 Reward 670.0
+Episode 7 Reward 970.0
+Episode 8 Reward 960.0
+Episode 9 Reward 800.0
+
+Average Reward: 856.0
+
+========= Iteration 99 =========
+Episode 0 Reward 420.0
+Episode 1 Reward 950.0
+Episode 2 Reward 950.0
+Episode 3 Reward 840.0
+Episode 4 Reward 950.0
+Episode 5 Reward 950.0
+Episode 6 Reward 750.0
+Episode 7 Reward 930.0
+Episode 8 Reward 650.0
+Episode 9 Reward 790.0
+
+Average Reward: 818.0
+
+========= Iteration 100 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 970.0
+Episode 2 Reward 870.0
+Episode 3 Reward 970.0
+Episode 4 Reward -1840.0
+Episode 5 Reward 970.0
+Episode 6 Reward 750.0
+Episode 7 Reward 970.0
+Episode 8 Reward -310.0
+Episode 9 Reward 750.0
+
+Average Reward: 496.0
+
+========= Iteration 101 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 960.0
+Episode 2 Reward 740.0
+Episode 3 Reward 920.0
+Episode 4 Reward 780.0
+Episode 5 Reward 930.0
+Episode 6 Reward 820.0
+Episode 7 Reward 720.0
+Episode 8 Reward 640.0
+Episode 9 Reward 380.0
+
+Average Reward: 774.0
+
+========= Iteration 102 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 840.0
+Episode 2 Reward 940.0
+Episode 3 Reward 850.0
+Episode 4 Reward 860.0
+Episode 5 Reward 970.0
+Episode 6 Reward 540.0
+Episode 7 Reward 830.0
+Episode 8 Reward 820.0
+Episode 9 Reward -710.0
+
+Average Reward: 679.0
+
+========= Iteration 103 =========
+Episode 0 Reward 910.0
+Episode 1 Reward 790.0
+Episode 2 Reward 930.0
+Episode 3 Reward 700.0
+Episode 4 Reward 920.0
+Episode 5 Reward 960.0
+Episode 6 Reward 490.0
+Episode 7 Reward 600.0
+Episode 8 Reward 710.0
+Episode 9 Reward -650.0
+
+Average Reward: 636.0
+
+========= Iteration 104 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 950.0
+Episode 2 Reward 430.0
+Episode 3 Reward 970.0
+Episode 4 Reward 500.0
+Episode 5 Reward 870.0
+Episode 6 Reward 950.0
+Episode 7 Reward 560.0
+Episode 8 Reward 950.0
+Episode 9 Reward 830.0
+
+Average Reward: 796.0
+
+========= Iteration 105 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 840.0
+Episode 2 Reward 930.0
+Episode 3 Reward 950.0
+Episode 4 Reward 900.0
+Episode 5 Reward 960.0
+Episode 6 Reward 810.0
+Episode 7 Reward 950.0
+Episode 8 Reward -360.0
+Episode 9 Reward -1450.0
+
+Average Reward: 549.0
+
+========= Iteration 106 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 970.0
+Episode 2 Reward 820.0
+Episode 3 Reward 940.0
+Episode 4 Reward 880.0
+Episode 5 Reward 750.0
+Episode 6 Reward 910.0
+Episode 7 Reward 880.0
+Episode 8 Reward 930.0
+Episode 9 Reward 850.0
+
+Average Reward: 882.0
+
+========= Iteration 107 =========
+Episode 0 Reward 820.0
+Episode 1 Reward 910.0
+Episode 2 Reward 940.0
+Episode 3 Reward 790.0
+Episode 4 Reward 690.0
+Episode 5 Reward 910.0
+Episode 6 Reward 960.0
+Episode 7 Reward 880.0
+Episode 8 Reward 950.0
+Episode 9 Reward 900.0
+
+Average Reward: 875.0
+
+========= Iteration 108 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 970.0
+Episode 2 Reward 620.0
+Episode 3 Reward 470.0
+Episode 4 Reward 970.0
+Episode 5 Reward 660.0
+Episode 6 Reward 600.0
+Episode 7 Reward 630.0
+Episode 8 Reward 830.0
+Episode 9 Reward 80.0
+
+Average Reward: 676.0
+
+========= Iteration 109 =========
+Episode 0 Reward -220.0
+Episode 1 Reward 760.0
+Episode 2 Reward 960.0
+Episode 3 Reward 970.0
+Episode 4 Reward 950.0
+Episode 5 Reward 970.0
+Episode 6 Reward 460.0
+Episode 7 Reward 960.0
+Episode 8 Reward 950.0
+Episode 9 Reward 970.0
+
+Average Reward: 773.0
+
+========= Iteration 110 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 960.0
+Episode 2 Reward 670.0
+Episode 3 Reward 790.0
+Episode 4 Reward 970.0
+Episode 5 Reward -1480.0
+Episode 6 Reward 880.0
+Episode 7 Reward 820.0
+Episode 8 Reward 930.0
+Episode 9 Reward 830.0
+
+Average Reward: 634.0
+
+========= Iteration 111 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 930.0
+Episode 2 Reward 780.0
+Episode 3 Reward 710.0
+Episode 4 Reward 730.0
+Episode 5 Reward 910.0
+Episode 6 Reward 960.0
+Episode 7 Reward 820.0
+Episode 8 Reward 960.0
+Episode 9 Reward 950.0
+
+Average Reward: 853.0
+
+========= Iteration 112 =========
+Episode 0 Reward 840.0
+Episode 1 Reward -770.0
+Episode 2 Reward 950.0
+Episode 3 Reward 970.0
+Episode 4 Reward 770.0
+Episode 5 Reward 970.0
+Episode 6 Reward 960.0
+Episode 7 Reward 900.0
+Episode 8 Reward 960.0
+Episode 9 Reward 960.0
+
+Average Reward: 751.0
+
+========= Iteration 113 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 550.0
+Episode 2 Reward 940.0
+Episode 3 Reward 920.0
+Episode 4 Reward 820.0
+Episode 5 Reward -340.0
+Episode 6 Reward 950.0
+Episode 7 Reward 960.0
+Episode 8 Reward 930.0
+Episode 9 Reward 950.0
+
+Average Reward: 765.0
+
+========= Iteration 114 =========
+Episode 0 Reward 900.0
+Episode 1 Reward 840.0
+Episode 2 Reward 910.0
+Episode 3 Reward 830.0
+Episode 4 Reward 960.0
+Episode 5 Reward 930.0
+Episode 6 Reward -7460.0
+Episode 7 Reward 960.0
+Episode 8 Reward 940.0
+Episode 9 Reward 960.0
+
+Average Reward: 77.0
+
+========= Iteration 115 =========
+Episode 0 Reward 790.0
+Episode 1 Reward 900.0
+Episode 2 Reward 840.0
+Episode 3 Reward 950.0
+Episode 4 Reward 910.0
+Episode 5 Reward 650.0
+Episode 6 Reward 710.0
+Episode 7 Reward 920.0
+Episode 8 Reward 910.0
+Episode 9 Reward 970.0
+
+Average Reward: 855.0
+
+========= Iteration 116 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 960.0
+Episode 2 Reward 740.0
+Episode 3 Reward 960.0
+Episode 4 Reward 970.0
+Episode 5 Reward 960.0
+Episode 6 Reward 850.0
+Episode 7 Reward -1090.0
+Episode 8 Reward 940.0
+Episode 9 Reward 910.0
+
+Average Reward: 717.0
+
+========= Iteration 117 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 910.0
+Episode 2 Reward 960.0
+Episode 3 Reward 910.0
+Episode 4 Reward 910.0
+Episode 5 Reward 890.0
+Episode 6 Reward 960.0
+Episode 7 Reward 520.0
+Episode 8 Reward 900.0
+Episode 9 Reward 940.0
+
+Average Reward: 868.0
+
+========= Iteration 118 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 530.0
+Episode 2 Reward 880.0
+Episode 3 Reward 510.0
+Episode 4 Reward 930.0
+Episode 5 Reward 460.0
+Episode 6 Reward 900.0
+Episode 7 Reward 960.0
+Episode 8 Reward 770.0
+Episode 9 Reward 900.0
+
+Average Reward: 762.0
+
+========= Iteration 119 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 910.0
+Episode 2 Reward 960.0
+Episode 3 Reward 920.0
+Episode 4 Reward 910.0
+Episode 5 Reward 940.0
+Episode 6 Reward 920.0
+Episode 7 Reward 830.0
+Episode 8 Reward 930.0
+Episode 9 Reward 930.0
+
+Average Reward: 914.0
+
+========= Iteration 120 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 970.0
+Episode 2 Reward 940.0
+Episode 3 Reward 970.0
+Episode 4 Reward 970.0
+Episode 5 Reward 850.0
+Episode 6 Reward 820.0
+Episode 7 Reward 940.0
+Episode 8 Reward 900.0
+Episode 9 Reward 930.0
+
+Average Reward: 923.0
+
+========= Iteration 121 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 820.0
+Episode 2 Reward 970.0
+Episode 3 Reward 970.0
+Episode 4 Reward 920.0
+Episode 5 Reward 970.0
+Episode 6 Reward 910.0
+Episode 7 Reward 300.0
+Episode 8 Reward 770.0
+Episode 9 Reward 950.0
+
+Average Reward: 853.0
+
+========= Iteration 122 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 560.0
+Episode 2 Reward 950.0
+Episode 3 Reward 920.0
+Episode 4 Reward 950.0
+Episode 5 Reward 960.0
+Episode 6 Reward 940.0
+Episode 7 Reward 920.0
+Episode 8 Reward 840.0
+Episode 9 Reward 970.0
+
+Average Reward: 897.0
+
+========= Iteration 123 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 960.0
+Episode 2 Reward 960.0
+Episode 3 Reward 950.0
+Episode 4 Reward 970.0
+Episode 5 Reward 960.0
+Episode 6 Reward 970.0
+Episode 7 Reward 870.0
+Episode 8 Reward 970.0
+Episode 9 Reward 900.0
+
+Average Reward: 929.0
+
+========= Iteration 124 =========
+Episode 0 Reward 900.0
+Episode 1 Reward 890.0
+Episode 2 Reward 960.0
+Episode 3 Reward 880.0
+Episode 4 Reward 970.0
+Episode 5 Reward 950.0
+Episode 6 Reward 960.0
+Episode 7 Reward 950.0
+Episode 8 Reward 940.0
+Episode 9 Reward 900.0
+
+Average Reward: 930.0
+
+========= Iteration 125 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 830.0
+Episode 2 Reward 970.0
+Episode 3 Reward 910.0
+Episode 4 Reward 960.0
+Episode 5 Reward 870.0
+Episode 6 Reward -370.0
+Episode 7 Reward 910.0
+Episode 8 Reward 910.0
+Episode 9 Reward 950.0
+
+Average Reward: 781.0
+
+========= Iteration 126 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 940.0
+Episode 2 Reward 920.0
+Episode 3 Reward 960.0
+Episode 4 Reward 930.0
+Episode 5 Reward 920.0
+Episode 6 Reward 970.0
+Episode 7 Reward 930.0
+Episode 8 Reward 870.0
+Episode 9 Reward 650.0
+
+Average Reward: 902.0
+
+========= Iteration 127 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 170.0
+Episode 2 Reward 970.0
+Episode 3 Reward 940.0
+Episode 4 Reward 980.0
+Episode 5 Reward 820.0
+Episode 6 Reward 950.0
+Episode 7 Reward 940.0
+Episode 8 Reward 960.0
+Episode 9 Reward 970.0
+
+Average Reward: 865.0
+
+========= Iteration 128 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 860.0
+Episode 2 Reward 970.0
+Episode 3 Reward 960.0
+Episode 4 Reward 930.0
+Episode 5 Reward 970.0
+Episode 6 Reward 820.0
+Episode 7 Reward 640.0
+Episode 8 Reward 720.0
+Episode 9 Reward 930.0
+
+Average Reward: 869.0
+
+========= Iteration 129 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 870.0
+Episode 2 Reward 770.0
+Episode 3 Reward 900.0
+Episode 4 Reward 550.0
+Episode 5 Reward 910.0
+Episode 6 Reward 910.0
+Episode 7 Reward 960.0
+Episode 8 Reward 960.0
+Episode 9 Reward 960.0
+
+Average Reward: 875.0
+
+========= Iteration 130 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 960.0
+Episode 2 Reward 800.0
+Episode 3 Reward 910.0
+Episode 4 Reward 880.0
+Episode 5 Reward 960.0
+Episode 6 Reward 900.0
+Episode 7 Reward 970.0
+Episode 8 Reward 820.0
+Episode 9 Reward 940.0
+
+Average Reward: 906.0
+
+========= Iteration 131 =========
+Episode 0 Reward 910.0
+Episode 1 Reward 940.0
+Episode 2 Reward 840.0
+Episode 3 Reward 950.0
+Episode 4 Reward 960.0
+Episode 5 Reward 960.0
+Episode 6 Reward 950.0
+Episode 7 Reward 970.0
+Episode 8 Reward 930.0
+Episode 9 Reward 680.0
+
+Average Reward: 909.0
+
+========= Iteration 132 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 960.0
+Episode 2 Reward 730.0
+Episode 3 Reward 980.0
+Episode 4 Reward 970.0
+Episode 5 Reward 960.0
+Episode 6 Reward 930.0
+Episode 7 Reward 850.0
+Episode 8 Reward 830.0
+Episode 9 Reward 940.0
+
+Average Reward: 911.0
+
+========= Iteration 133 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 810.0
+Episode 2 Reward 900.0
+Episode 3 Reward 800.0
+Episode 4 Reward 640.0
+Episode 5 Reward 970.0
+Episode 6 Reward 830.0
+Episode 7 Reward 120.0
+Episode 8 Reward 950.0
+Episode 9 Reward 970.0
+
+Average Reward: 796.0
+
+========= Iteration 134 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 880.0
+Episode 2 Reward 790.0
+Episode 3 Reward 920.0
+Episode 4 Reward 930.0
+Episode 5 Reward 950.0
+Episode 6 Reward 980.0
+Episode 7 Reward 950.0
+Episode 8 Reward 920.0
+Episode 9 Reward 710.0
+
+Average Reward: 900.0
+
+========= Iteration 135 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 890.0
+Episode 2 Reward 950.0
+Episode 3 Reward 930.0
+Episode 4 Reward 850.0
+Episode 5 Reward 950.0
+Episode 6 Reward 970.0
+Episode 7 Reward 460.0
+Episode 8 Reward 960.0
+Episode 9 Reward 970.0
+
+Average Reward: 889.0
+
+========= Iteration 136 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 900.0
+Episode 2 Reward 970.0
+Episode 3 Reward 930.0
+Episode 4 Reward 270.0
+Episode 5 Reward 950.0
+Episode 6 Reward 970.0
+Episode 7 Reward 880.0
+Episode 8 Reward 710.0
+Episode 9 Reward 940.0
+
+Average Reward: 847.0
+
+========= Iteration 137 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 940.0
+Episode 2 Reward 880.0
+Episode 3 Reward 840.0
+Episode 4 Reward 970.0
+Episode 5 Reward 940.0
+Episode 6 Reward 290.0
+Episode 7 Reward 920.0
+Episode 8 Reward 790.0
+Episode 9 Reward 970.0
+
+Average Reward: 839.0
+
+========= Iteration 138 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 800.0
+Episode 2 Reward 760.0
+Episode 3 Reward 960.0
+Episode 4 Reward 970.0
+Episode 5 Reward 830.0
+Episode 6 Reward 880.0
+Episode 7 Reward 930.0
+Episode 8 Reward 910.0
+Episode 9 Reward 890.0
+
+Average Reward: 890.0
+
+========= Iteration 139 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 740.0
+Episode 2 Reward 970.0
+Episode 3 Reward 930.0
+Episode 4 Reward 900.0
+Episode 5 Reward 940.0
+Episode 6 Reward 950.0
+Episode 7 Reward 970.0
+Episode 8 Reward 940.0
+Episode 9 Reward 950.0
+
+Average Reward: 924.0
+
+========= Iteration 140 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 970.0
+Episode 2 Reward 950.0
+Episode 3 Reward 920.0
+Episode 4 Reward 960.0
+Episode 5 Reward 970.0
+Episode 6 Reward 930.0
+Episode 7 Reward 880.0
+Episode 8 Reward 950.0
+Episode 9 Reward 840.0
+
+Average Reward: 934.0
+
+========= Iteration 141 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 940.0
+Episode 2 Reward 840.0
+Episode 3 Reward 970.0
+Episode 4 Reward 840.0
+Episode 5 Reward 950.0
+Episode 6 Reward 930.0
+Episode 7 Reward 820.0
+Episode 8 Reward 740.0
+Episode 9 Reward 910.0
+
+Average Reward: 878.0
+
+========= Iteration 142 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 910.0
+Episode 2 Reward 940.0
+Episode 3 Reward 960.0
+Episode 4 Reward 960.0
+Episode 5 Reward 960.0
+Episode 6 Reward 930.0
+Episode 7 Reward 780.0
+Episode 8 Reward 640.0
+Episode 9 Reward 960.0
+
+Average Reward: 889.0
+
+========= Iteration 143 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 550.0
+Episode 2 Reward 970.0
+Episode 3 Reward 920.0
+Episode 4 Reward 880.0
+Episode 5 Reward 900.0
+Episode 6 Reward 720.0
+Episode 7 Reward 810.0
+Episode 8 Reward 930.0
+Episode 9 Reward 970.0
+
+Average Reward: 859.0
+
+========= Iteration 144 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 940.0
+Episode 2 Reward 850.0
+Episode 3 Reward 930.0
+Episode 4 Reward 960.0
+Episode 5 Reward 950.0
+Episode 6 Reward 440.0
+Episode 7 Reward 950.0
+Episode 8 Reward 960.0
+Episode 9 Reward 970.0
+
+Average Reward: 887.0
+
+========= Iteration 145 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 730.0
+Episode 2 Reward 950.0
+Episode 3 Reward 940.0
+Episode 4 Reward 970.0
+Episode 5 Reward 970.0
+Episode 6 Reward 950.0
+Episode 7 Reward 950.0
+Episode 8 Reward 950.0
+Episode 9 Reward 930.0
+
+Average Reward: 929.0
+
+========= Iteration 146 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 970.0
+Episode 2 Reward 960.0
+Episode 3 Reward 940.0
+Episode 4 Reward 980.0
+Episode 5 Reward 940.0
+Episode 6 Reward 980.0
+Episode 7 Reward 940.0
+Episode 8 Reward 910.0
+Episode 9 Reward 950.0
+
+Average Reward: 951.0
+
+========= Iteration 147 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 940.0
+Episode 2 Reward 960.0
+Episode 3 Reward 830.0
+Episode 4 Reward 950.0
+Episode 5 Reward 960.0
+Episode 6 Reward 960.0
+Episode 7 Reward 940.0
+Episode 8 Reward 860.0
+Episode 9 Reward 930.0
+
+Average Reward: 911.0
+
+========= Iteration 148 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 930.0
+Episode 2 Reward 670.0
+Episode 3 Reward 930.0
+Episode 4 Reward 820.0
+Episode 5 Reward 950.0
+Episode 6 Reward 860.0
+Episode 7 Reward 960.0
+Episode 8 Reward 20.0
+Episode 9 Reward 730.0
+
+Average Reward: 779.0
+
+========= Iteration 149 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 940.0
+Episode 2 Reward 960.0
+Episode 3 Reward 750.0
+Episode 4 Reward 880.0
+Episode 5 Reward 900.0
+Episode 6 Reward 960.0
+Episode 7 Reward 420.0
+Episode 8 Reward 900.0
+Episode 9 Reward 910.0
+
+Average Reward: 858.0
+
+========= Iteration 150 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 850.0
+Episode 2 Reward 880.0
+Episode 3 Reward 930.0
+Episode 4 Reward 950.0
+Episode 5 Reward 930.0
+Episode 6 Reward 660.0
+Episode 7 Reward 910.0
+Episode 8 Reward 860.0
+Episode 9 Reward 950.0
+
+Average Reward: 886.0
+
+========= Iteration 151 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 970.0
+Episode 2 Reward 950.0
+Episode 3 Reward 920.0
+Episode 4 Reward 970.0
+Episode 5 Reward 970.0
+Episode 6 Reward 340.0
+Episode 7 Reward 950.0
+Episode 8 Reward 970.0
+Episode 9 Reward 950.0
+
+Average Reward: 884.0
+
+========= Iteration 152 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 940.0
+Episode 2 Reward 950.0
+Episode 3 Reward -2400.0
+Episode 4 Reward 840.0
+Episode 5 Reward 920.0
+Episode 6 Reward 870.0
+Episode 7 Reward 900.0
+Episode 8 Reward 710.0
+Episode 9 Reward 950.0
+
+Average Reward: 563.0
+
+========= Iteration 153 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 970.0
+Episode 2 Reward 800.0
+Episode 3 Reward 970.0
+Episode 4 Reward 910.0
+Episode 5 Reward 920.0
+Episode 6 Reward 780.0
+Episode 7 Reward 520.0
+Episode 8 Reward 890.0
+Episode 9 Reward 940.0
+
+Average Reward: 866.0
+
+========= Iteration 154 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 500.0
+Episode 2 Reward 930.0
+Episode 3 Reward 570.0
+Episode 4 Reward 930.0
+Episode 5 Reward 970.0
+Episode 6 Reward 950.0
+Episode 7 Reward 890.0
+Episode 8 Reward 950.0
+Episode 9 Reward 970.0
+
+Average Reward: 863.0
+
+========= Iteration 155 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 740.0
+Episode 2 Reward 910.0
+Episode 3 Reward 770.0
+Episode 4 Reward 970.0
+Episode 5 Reward 870.0
+Episode 6 Reward 960.0
+Episode 7 Reward 620.0
+Episode 8 Reward 780.0
+Episode 9 Reward 950.0
+
+Average Reward: 853.0
+
+========= Iteration 156 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 910.0
+Episode 2 Reward 510.0
+Episode 3 Reward 960.0
+Episode 4 Reward 930.0
+Episode 5 Reward 960.0
+Episode 6 Reward 950.0
+Episode 7 Reward 910.0
+Episode 8 Reward 940.0
+Episode 9 Reward 920.0
+
+Average Reward: 883.0
+
+========= Iteration 157 =========
+Episode 0 Reward 910.0
+Episode 1 Reward 870.0
+Episode 2 Reward 970.0
+Episode 3 Reward 940.0
+Episode 4 Reward 640.0
+Episode 5 Reward 880.0
+Episode 6 Reward 950.0
+Episode 7 Reward 920.0
+Episode 8 Reward 920.0
+Episode 9 Reward 870.0
+
+Average Reward: 887.0
+
+========= Iteration 158 =========
+Episode 0 Reward 690.0
+Episode 1 Reward 960.0
+Episode 2 Reward 910.0
+Episode 3 Reward 960.0
+Episode 4 Reward 790.0
+Episode 5 Reward 880.0
+Episode 6 Reward 890.0
+Episode 7 Reward 930.0
+Episode 8 Reward 970.0
+Episode 9 Reward 970.0
+
+Average Reward: 895.0
+
+========= Iteration 159 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 970.0
+Episode 2 Reward 840.0
+Episode 3 Reward 970.0
+Episode 4 Reward 960.0
+Episode 5 Reward 940.0
+Episode 6 Reward 940.0
+Episode 7 Reward 800.0
+Episode 8 Reward 930.0
+Episode 9 Reward 950.0
+
+Average Reward: 922.0
+
+========= Iteration 160 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 940.0
+Episode 2 Reward 910.0
+Episode 3 Reward 960.0
+Episode 4 Reward 950.0
+Episode 5 Reward 510.0
+Episode 6 Reward 410.0
+Episode 7 Reward 800.0
+Episode 8 Reward 910.0
+Episode 9 Reward 970.0
+
+Average Reward: 832.0
+
+========= Iteration 161 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 770.0
+Episode 2 Reward 890.0
+Episode 3 Reward 950.0
+Episode 4 Reward 960.0
+Episode 5 Reward 930.0
+Episode 6 Reward 960.0
+Episode 7 Reward 940.0
+Episode 8 Reward 950.0
+Episode 9 Reward 460.0
+
+Average Reward: 876.0
+
+========= Iteration 162 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 860.0
+Episode 2 Reward 830.0
+Episode 3 Reward 840.0
+Episode 4 Reward 740.0
+Episode 5 Reward 900.0
+Episode 6 Reward 960.0
+Episode 7 Reward -1320.0
+Episode 8 Reward 940.0
+Episode 9 Reward 900.0
+
+Average Reward: 660.0
+
+========= Iteration 163 =========
+Episode 0 Reward 880.0
+Episode 1 Reward 640.0
+Episode 2 Reward 970.0
+Episode 3 Reward 880.0
+Episode 4 Reward 890.0
+Episode 5 Reward 950.0
+Episode 6 Reward 880.0
+Episode 7 Reward 960.0
+Episode 8 Reward 950.0
+Episode 9 Reward 960.0
+
+Average Reward: 896.0
+
+========= Iteration 164 =========
+Episode 0 Reward 510.0
+Episode 1 Reward 940.0
+Episode 2 Reward 720.0
+Episode 3 Reward 660.0
+Episode 4 Reward 790.0
+Episode 5 Reward 900.0
+Episode 6 Reward 940.0
+Episode 7 Reward -390.0
+Episode 8 Reward 960.0
+Episode 9 Reward 60.0
+
+Average Reward: 609.0
+
+========= Iteration 165 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 600.0
+Episode 2 Reward 850.0
+Episode 3 Reward 950.0
+Episode 4 Reward 790.0
+Episode 5 Reward 960.0
+Episode 6 Reward 930.0
+Episode 7 Reward 830.0
+Episode 8 Reward 750.0
+Episode 9 Reward 750.0
+
+Average Reward: 835.0
+
+========= Iteration 166 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 960.0
+Episode 2 Reward 890.0
+Episode 3 Reward 820.0
+Episode 4 Reward 840.0
+Episode 5 Reward 930.0
+Episode 6 Reward 740.0
+Episode 7 Reward 930.0
+Episode 8 Reward 950.0
+Episode 9 Reward 970.0
+
+Average Reward: 897.0
+
+========= Iteration 167 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 940.0
+Episode 2 Reward 960.0
+Episode 3 Reward 960.0
+Episode 4 Reward 940.0
+Episode 5 Reward 860.0
+Episode 6 Reward 970.0
+Episode 7 Reward 390.0
+Episode 8 Reward 960.0
+Episode 9 Reward 540.0
+
+Average Reward: 841.0
+
+========= Iteration 168 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 920.0
+Episode 2 Reward 970.0
+Episode 3 Reward 940.0
+Episode 4 Reward 880.0
+Episode 5 Reward 970.0
+Episode 6 Reward 900.0
+Episode 7 Reward 590.0
+Episode 8 Reward 930.0
+Episode 9 Reward 910.0
+
+Average Reward: 897.0
+
+========= Iteration 169 =========
+Episode 0 Reward 910.0
+Episode 1 Reward 630.0
+Episode 2 Reward 970.0
+Episode 3 Reward 920.0
+Episode 4 Reward 970.0
+Episode 5 Reward 950.0
+Episode 6 Reward 910.0
+Episode 7 Reward 850.0
+Episode 8 Reward 920.0
+Episode 9 Reward 970.0
+
+Average Reward: 900.0
+
+========= Iteration 170 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 940.0
+Episode 2 Reward 900.0
+Episode 3 Reward 970.0
+Episode 4 Reward 930.0
+Episode 5 Reward 70.0
+Episode 6 Reward 930.0
+Episode 7 Reward 900.0
+Episode 8 Reward 940.0
+Episode 9 Reward 620.0
+
+Average Reward: 813.0
+
+========= Iteration 171 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 850.0
+Episode 2 Reward 940.0
+Episode 3 Reward 960.0
+Episode 4 Reward 700.0
+Episode 5 Reward 930.0
+Episode 6 Reward 970.0
+Episode 7 Reward 960.0
+Episode 8 Reward 200.0
+Episode 9 Reward 810.0
+
+Average Reward: 825.0
+
+========= Iteration 172 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 940.0
+Episode 2 Reward 630.0
+Episode 3 Reward 930.0
+Episode 4 Reward 750.0
+Episode 5 Reward 870.0
+Episode 6 Reward 920.0
+Episode 7 Reward 890.0
+Episode 8 Reward 970.0
+Episode 9 Reward 940.0
+
+Average Reward: 876.0
+
+========= Iteration 173 =========
+Episode 0 Reward 780.0
+Episode 1 Reward 960.0
+Episode 2 Reward 970.0
+Episode 3 Reward 910.0
+Episode 4 Reward 960.0
+Episode 5 Reward 810.0
+Episode 6 Reward 960.0
+Episode 7 Reward 960.0
+Episode 8 Reward 820.0
+Episode 9 Reward 920.0
+
+Average Reward: 905.0
+
+========= Iteration 174 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 910.0
+Episode 2 Reward 970.0
+Episode 3 Reward 950.0
+Episode 4 Reward 910.0
+Episode 5 Reward 950.0
+Episode 6 Reward 810.0
+Episode 7 Reward 880.0
+Episode 8 Reward 950.0
+Episode 9 Reward 930.0
+
+Average Reward: 921.0
+
+========= Iteration 175 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 960.0
+Episode 2 Reward 930.0
+Episode 3 Reward 860.0
+Episode 4 Reward 980.0
+Episode 5 Reward 960.0
+Episode 6 Reward 970.0
+Episode 7 Reward 870.0
+Episode 8 Reward 970.0
+Episode 9 Reward 820.0
+
+Average Reward: 919.0
+
+========= Iteration 176 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 900.0
+Episode 2 Reward 950.0
+Episode 3 Reward 950.0
+Episode 4 Reward 900.0
+Episode 5 Reward 940.0
+Episode 6 Reward 950.0
+Episode 7 Reward 940.0
+Episode 8 Reward 900.0
+Episode 9 Reward 520.0
+
+Average Reward: 888.0
+
+========= Iteration 177 =========
+Episode 0 Reward 930.0
+Episode 1 Reward 920.0
+Episode 2 Reward 970.0
+Episode 3 Reward 880.0
+Episode 4 Reward 900.0
+Episode 5 Reward 950.0
+Episode 6 Reward 920.0
+Episode 7 Reward 850.0
+Episode 8 Reward 920.0
+Episode 9 Reward -110.0
+
+Average Reward: 813.0
+
+========= Iteration 178 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 890.0
+Episode 2 Reward 960.0
+Episode 3 Reward 910.0
+Episode 4 Reward 890.0
+Episode 5 Reward 960.0
+Episode 6 Reward 960.0
+Episode 7 Reward 970.0
+Episode 8 Reward 960.0
+Episode 9 Reward 640.0
+
+Average Reward: 911.0
+
+========= Iteration 179 =========
+Episode 0 Reward 910.0
+Episode 1 Reward 790.0
+Episode 2 Reward 970.0
+Episode 3 Reward 910.0
+Episode 4 Reward 760.0
+Episode 5 Reward 960.0
+Episode 6 Reward 960.0
+Episode 7 Reward 970.0
+Episode 8 Reward 930.0
+Episode 9 Reward 840.0
+
+Average Reward: 900.0
+
+========= Iteration 180 =========
+Episode 0 Reward 840.0
+Episode 1 Reward 750.0
+Episode 2 Reward 960.0
+Episode 3 Reward 950.0
+Episode 4 Reward 830.0
+Episode 5 Reward 870.0
+Episode 6 Reward 950.0
+Episode 7 Reward 860.0
+Episode 8 Reward 940.0
+Episode 9 Reward 960.0
+
+Average Reward: 891.0
+
+========= Iteration 181 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 960.0
+Episode 2 Reward 900.0
+Episode 3 Reward 940.0
+Episode 4 Reward 830.0
+Episode 5 Reward 940.0
+Episode 6 Reward 940.0
+Episode 7 Reward 930.0
+Episode 8 Reward 820.0
+Episode 9 Reward 960.0
+
+Average Reward: 909.0
+
+========= Iteration 182 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 970.0
 Episode 2 Reward 880.0
 Episode 3 Reward 960.0
-Failure:Interrupted
+Episode 4 Reward 940.0
+Episode 5 Reward 960.0
+Episode 6 Reward 510.0
+Episode 7 Reward 840.0
+Episode 8 Reward 820.0
+Episode 9 Reward 830.0
+
+Average Reward: 856.0
+
+========= Iteration 183 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 940.0
+Episode 2 Reward 940.0
+Episode 3 Reward 880.0
+Episode 4 Reward 870.0
+Episode 5 Reward 960.0
+Episode 6 Reward 950.0
+Episode 7 Reward 770.0
+Episode 8 Reward 930.0
+Episode 9 Reward 740.0
+
+Average Reward: 893.0
+
+========= Iteration 184 =========
+Episode 0 Reward 890.0
+Episode 1 Reward 970.0
+Episode 2 Reward 870.0
+Episode 3 Reward 750.0
+Episode 4 Reward 360.0
+Episode 5 Reward 950.0
+Episode 6 Reward 760.0
+Episode 7 Reward 870.0
+Episode 8 Reward 950.0
+Episode 9 Reward 950.0
+
+Average Reward: 832.0
+
+========= Iteration 185 =========
+Episode 0 Reward 630.0
+Episode 1 Reward 820.0
+Episode 2 Reward 880.0
+Episode 3 Reward 860.0
+Episode 4 Reward 960.0
+Episode 5 Reward 850.0
+Episode 6 Reward 890.0
+Episode 7 Reward 970.0
+Episode 8 Reward 820.0
+Episode 9 Reward 690.0
+
+Average Reward: 837.0
+
+========= Iteration 186 =========
+Episode 0 Reward 670.0
+Episode 1 Reward 950.0
+Episode 2 Reward 870.0
+Episode 3 Reward 910.0
+Episode 4 Reward 870.0
+Episode 5 Reward 960.0
+Episode 6 Reward 920.0
+Episode 7 Reward 940.0
+Episode 8 Reward 840.0
+Episode 9 Reward 920.0
+
+Average Reward: 885.0
+
+========= Iteration 187 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 940.0
+Episode 2 Reward 940.0
+Episode 3 Reward 950.0
+Episode 4 Reward 950.0
+Episode 5 Reward 950.0
+Episode 6 Reward 950.0
+Episode 7 Reward 560.0
+Episode 8 Reward 950.0
+Episode 9 Reward 880.0
+
+Average Reward: 899.0
+
+========= Iteration 188 =========
+Episode 0 Reward 900.0
+Episode 1 Reward 930.0
+Episode 2 Reward 970.0
+Episode 3 Reward 970.0
+Episode 4 Reward 710.0
+Episode 5 Reward 960.0
+Episode 6 Reward 950.0
+Episode 7 Reward 800.0
+Episode 8 Reward 670.0
+Episode 9 Reward 870.0
+
+Average Reward: 873.0
+
+========= Iteration 189 =========
+Episode 0 Reward 600.0
+Episode 1 Reward 860.0
+Episode 2 Reward 880.0
+Episode 3 Reward 920.0
+Episode 4 Reward 970.0
+Episode 5 Reward 880.0
+Episode 6 Reward 820.0
+Episode 7 Reward 950.0
+Episode 8 Reward 900.0
+Episode 9 Reward 920.0
+
+Average Reward: 870.0
+
+========= Iteration 190 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 970.0
+Episode 2 Reward 930.0
+Episode 3 Reward 970.0
+Episode 4 Reward 860.0
+Episode 5 Reward 950.0
+Episode 6 Reward 970.0
+Episode 7 Reward 970.0
+Episode 8 Reward 930.0
+Episode 9 Reward 970.0
+
+Average Reward: 944.0
+
+========= Iteration 191 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 530.0
+Episode 2 Reward 910.0
+Episode 3 Reward 910.0
+Episode 4 Reward 970.0
+Episode 5 Reward 970.0
+Episode 6 Reward 680.0
+Episode 7 Reward 970.0
+Episode 8 Reward 960.0
+Episode 9 Reward 730.0
+
+Average Reward: 835.0
+
+========= Iteration 192 =========
+Episode 0 Reward 820.0
+Episode 1 Reward 850.0
+Episode 2 Reward 970.0
+Episode 3 Reward 760.0
+Episode 4 Reward 670.0
+Episode 5 Reward 430.0
+Episode 6 Reward 790.0
+Episode 7 Reward 960.0
+Episode 8 Reward 820.0
+Episode 9 Reward -1110.0
+
+Average Reward: 596.0
+
+========= Iteration 193 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 920.0
+Episode 2 Reward 90.0
+Episode 3 Reward 460.0
+Episode 4 Reward 880.0
+Episode 5 Reward 960.0
+Episode 6 Reward 950.0
+Episode 7 Reward 870.0
+Episode 8 Reward 910.0
+Episode 9 Reward 960.0
+
+Average Reward: 786.0
+
+========= Iteration 194 =========
+Episode 0 Reward 900.0
+Episode 1 Reward 960.0
+Episode 2 Reward 860.0
+Episode 3 Reward 950.0
+Episode 4 Reward 820.0
+Episode 5 Reward 940.0
+Episode 6 Reward 860.0
+Episode 7 Reward 950.0
+Episode 8 Reward 900.0
+Episode 9 Reward 970.0
+
+Average Reward: 911.0
+
+========= Iteration 195 =========
+Episode 0 Reward 870.0
+Episode 1 Reward 980.0
+Episode 2 Reward 970.0
+Episode 3 Reward 970.0
+Episode 4 Reward 890.0
+Episode 5 Reward 970.0
+Episode 6 Reward 970.0
+Episode 7 Reward 930.0
+Episode 8 Reward 970.0
+Episode 9 Reward 960.0
+
+Average Reward: 948.0
+
+========= Iteration 196 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 850.0
+Episode 2 Reward 940.0
+Episode 3 Reward 970.0
+Episode 4 Reward 960.0
+Episode 5 Reward 960.0
+Episode 6 Reward 860.0
+Episode 7 Reward 960.0
+Episode 8 Reward 950.0
+Episode 9 Reward 950.0
+
+Average Reward: 932.0
+
+========= Iteration 197 =========
+Episode 0 Reward 910.0
+Episode 1 Reward 920.0
+Episode 2 Reward 860.0
+Episode 3 Reward 970.0
+Episode 4 Reward 800.0
+Episode 5 Reward 880.0
+Episode 6 Reward 910.0
+Episode 7 Reward 900.0
+Episode 8 Reward 940.0
+Episode 9 Reward 900.0
+
+Average Reward: 899.0
+
+========= Iteration 198 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 970.0
+Episode 2 Reward 910.0
+Episode 3 Reward 970.0
+Episode 4 Reward 880.0
+Episode 5 Reward 800.0
+Episode 6 Reward 940.0
+Episode 7 Reward 940.0
+Episode 8 Reward 930.0
+Episode 9 Reward 960.0
+
+Average Reward: 927.0
+
+========= Iteration 199 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 720.0
+Episode 2 Reward 950.0
+Episode 3 Reward 930.0
+Episode 4 Reward 970.0
+Episode 5 Reward 930.0
+Episode 6 Reward 970.0
+Episode 7 Reward 910.0
+Episode 8 Reward 900.0
+Episode 9 Reward 930.0
+
+Average Reward: 916.0
+
+========= Iteration 200 =========
+Episode 0 Reward 590.0
+Episode 1 Reward 960.0
+Episode 2 Reward 890.0
+Episode 3 Reward 970.0
+Episode 4 Reward 930.0
+Episode 5 Reward 970.0
+Episode 6 Reward 960.0
+Episode 7 Reward 760.0
+Episode 8 Reward 880.0
+Episode 9 Reward 960.0
+
+Average Reward: 887.0
+
+========= Iteration 201 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 950.0
+Episode 2 Reward 950.0
+Episode 3 Reward 410.0
+Episode 4 Reward 970.0
+Episode 5 Reward 940.0
+Episode 6 Reward 950.0
+Episode 7 Reward 960.0
+Episode 8 Reward 940.0
+Episode 9 Reward 910.0
+
+Average Reward: 895.0
+
+========= Iteration 202 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 790.0
+Episode 2 Reward 940.0
+Episode 3 Reward 940.0
+Episode 4 Reward 970.0
+Episode 5 Reward 960.0
+Episode 6 Reward 830.0
+Episode 7 Reward 940.0
+Episode 8 Reward 760.0
+Episode 9 Reward 900.0
+
+Average Reward: 897.0
+
+========= Iteration 203 =========
+Episode 0 Reward 970.0
+Episode 1 Reward 700.0
+Episode 2 Reward 940.0
+Episode 3 Reward 910.0
+Episode 4 Reward 970.0
+Episode 5 Reward 860.0
+Episode 6 Reward 920.0
+Episode 7 Reward 970.0
+Episode 8 Reward 940.0
+Episode 9 Reward 820.0
+
+Average Reward: 900.0
+
+========= Iteration 204 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 950.0
+Episode 2 Reward 950.0
+Episode 3 Reward 940.0
+Episode 4 Reward 950.0
+Episode 5 Reward 960.0
+Episode 6 Reward 840.0
+Episode 7 Reward 910.0
+Episode 8 Reward 970.0
+Episode 9 Reward 970.0
+
+Average Reward: 939.0
+
+========= Iteration 205 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 900.0
+Episode 2 Reward 870.0
+Episode 3 Reward 980.0
+Episode 4 Reward 180.0
+Episode 5 Reward 920.0
+Episode 6 Reward 840.0
+Episode 7 Reward 950.0
+Episode 8 Reward 950.0
+Episode 9 Reward 970.0
+
+Average Reward: 828.0
+
+========= Iteration 206 =========
+Episode 0 Reward 810.0
+Episode 1 Reward 950.0
+Episode 2 Reward 920.0
+Episode 3 Reward 970.0
+Episode 4 Reward 900.0
+Episode 5 Reward 940.0
+Episode 6 Reward 850.0
+Episode 7 Reward 900.0
+Episode 8 Reward 920.0
+Episode 9 Reward 930.0
+
+Average Reward: 909.0
+
+========= Iteration 207 =========
+Episode 0 Reward 850.0
+Episode 1 Reward 960.0
+Episode 2 Reward 950.0
+Episode 3 Reward 830.0
+Episode 4 Reward 970.0
+Episode 5 Reward 440.0
+Episode 6 Reward 960.0
+Episode 7 Reward 940.0
+Episode 8 Reward 900.0
+Episode 9 Reward 670.0
+
+Average Reward: 847.0
+
+========= Iteration 208 =========
+Episode 0 Reward 610.0
+Episode 1 Reward 750.0
+Episode 2 Reward 970.0
+Episode 3 Reward 940.0
+Episode 4 Reward 780.0
+Episode 5 Reward 970.0
+Episode 6 Reward 960.0
+Episode 7 Reward 770.0
+Episode 8 Reward 910.0
+Episode 9 Reward 910.0
+
+Average Reward: 857.0
+
+========= Iteration 209 =========
+Episode 0 Reward 950.0
+Episode 1 Reward 960.0
+Episode 2 Reward 960.0
+Episode 3 Reward -1870.0
+Episode 4 Reward 970.0
+Episode 5 Reward 960.0
+Episode 6 Reward 970.0
+Episode 7 Reward 890.0
+Episode 8 Reward -5570.0
+Episode 9 Reward 920.0
+
+Average Reward: 14.0
+
+========= Iteration 210 =========
+Episode 0 Reward 720.0
+Episode 1 Reward 960.0
+Episode 2 Reward 960.0
+Episode 3 Reward 960.0
+Episode 4 Reward 870.0
+Episode 5 Reward 940.0
+Episode 6 Reward 790.0
+Episode 7 Reward 960.0
+Episode 8 Reward 940.0
+Episode 9 Reward 910.0
+
+Average Reward: 901.0
+
+========= Iteration 211 =========
+Episode 0 Reward 900.0
+Episode 1 Reward 690.0
+Episode 2 Reward 750.0
+Episode 3 Reward 700.0
+Episode 4 Reward 860.0
+Episode 5 Reward 850.0
+Episode 6 Reward 790.0
+Episode 7 Reward 980.0
+Episode 8 Reward 960.0
+Episode 9 Reward 960.0
+
+Average Reward: 844.0
+
+========= Iteration 212 =========
+Episode 0 Reward 860.0
+Episode 1 Reward 910.0
+Episode 2 Reward 920.0
+Episode 3 Reward 940.0
+Episode 4 Reward 960.0
+Episode 5 Reward 450.0
+Episode 6 Reward 930.0
+Episode 7 Reward 960.0
+Episode 8 Reward 950.0
+Episode 9 Reward 940.0
+
+Average Reward: 882.0
+
+========= Iteration 213 =========
+Episode 0 Reward -110.0
+Episode 1 Reward 960.0
+Episode 2 Reward 820.0
+Episode 3 Reward 810.0
+Episode 4 Reward 950.0
+Episode 5 Reward 960.0
+Episode 6 Reward 880.0
+Episode 7 Reward 890.0
+Episode 8 Reward 970.0
+Episode 9 Reward 920.0
+
+Average Reward: 805.0
+
+========= Iteration 214 =========
+Episode 0 Reward 940.0
+Episode 1 Reward 970.0
+Episode 2 Reward 950.0
+Episode 3 Reward 520.0
+Episode 4 Reward 970.0
+Episode 5 Reward 940.0
+Episode 6 Reward 800.0
+Episode 7 Reward 800.0
+Episode 8 Reward 930.0
+Episode 9 Reward 950.0
+
+Average Reward: 877.0
+
+========= Iteration 215 =========
+Episode 0 Reward 960.0
+Episode 1 Reward 910.0
+Episode 2 Reward 940.0
+Episode 3 Reward 970.0
+Episode 4 Reward 750.0
+Episode 5 Reward 910.0
+Episode 6 Reward 980.0
+Episode 7 Reward 290.0
+Episode 8 Reward 730.0
+Episode 9 Reward 700.0
+
+Average Reward: 814.0
+
+========= Iteration 216 =========
+Episode 0 Reward 830.0
+Episode 1 Reward 860.0
+Episode 2 Reward 790.0
+Episode 3 Reward 930.0
+Episode 4 Reward 820.0
+Episode 5 Reward 950.0
+Episode 6 Reward 820.0
+Episode 7 Reward 840.0
+Episode 8 Reward 880.0
+Episode 9 Reward 630.0
+
+Average Reward: 835.0
+
+========= Iteration 217 =========
+Episode 0 Reward 920.0
+Episode 1 Reward 920.0
+Episode 2 Reward 850.0
+Episode 3 Reward 930.0
+Episode 4 Reward 790.0
+Episode 5 Reward 880.0
+Episode 6 Reward 870.0
+Episode 7 Reward 920.0
+Episode 8 Reward 900.0
+Episode 9 Reward 950.0
+
+Average Reward: 893.0
+
+========= Iteration 218 =========
+Episode 0 Reward 760.0
+Episode 1 Reward 850.0
+Episode 2 Reward 930.0
+Episode 3 Reward 910.0
+Episode 4 Reward 660.0
+Episode 5 Reward 900.0
+Episode 6 Reward 920.0
+Episode 7 Reward 920.0
+Episode 8 Reward 960.0
+Episode 9 Reward 960.0
+
+Average Reward: 877.0
+
+========= Iteration 219 =========
+Episode 0 Reward 820.0
+Episode 1 Reward 920.0
+Episode 2 Reward 970.0
+Episode 3 Reward 970.0
+Episode 4 Reward 710.0
+Episode 5 Reward 800.0
+Episode 6 Reward 940.0
+Episode 7 Reward 700.0
+Episode 8 Reward 890.0
+Episode 9 Reward 660.0
+
+Average Reward: 838.0
+
+========= Iteration 220 =========

@@ -23,7 +23,7 @@ def model_with_new_params(model, deltas, scale):
 
 class ESTrainer(object):
     def __init__(self, sigma, lr, gamma, horizon, model,
-        num_epsiodes_per_update=10, num_noise=5000, max_updates=5000):
+        num_epsiodes_per_update=10, num_noise=15000, max_updates=1000):
 
         self.sigma = sigma
         self.lr = lr
@@ -57,7 +57,7 @@ class ESTrainer(object):
                     done = True
                 else:
                     reward += (self.gamma ** t) * (-10)
-        return reward
+        return reward, solver.num_problems_expanded
 
     def get_param_shapes(self):
         result = []
@@ -85,9 +85,9 @@ class ESTrainer(object):
             eps = [noise[ind] for noise in self.noise_by_param]
 
             with model_with_new_params(self.model, eps, self.sigma):
-                rew = self.run_epsiode((A, b, c))
+                rew, exp = self.run_epsiode((A, b, c))
                 total_reward += rew
-            print("Episode", ep, "Reward", rew)
+            print("Episode", ep, "Reward", rew, "Nodes Expanded", exp)
 
             to_update = [param + e * rew for param, e in zip(to_update, eps)]
         self.update_weights(to_update, self.lr / (self.n * self.sigma))
@@ -122,7 +122,7 @@ def main():
     m, n = As[0].shape
     As, bs, cs = torch.FloatTensor(As), torch.FloatTensor(bs), torch.FloatTensor(cs)
     model = BBModel(n, m)
-    trainer = ESTrainer(0.2, 0.001, 0.999, 500, model)
+    trainer = ESTrainer(0.2, 0.01, 0.999, 500, model)
     trainer.train((As, bs, cs))
 
 if __name__ == '__main__':
