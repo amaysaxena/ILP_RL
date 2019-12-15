@@ -100,6 +100,8 @@ class BBSolver(object):
 				index_to_branch = self.heuristic(problem.A, problem.b, problem.c, x)
 				for prob in problem.branch_on(index_to_branch, x[index_to_branch]):
 					self.fringe.push(prob)
+			return problem, x, value, is_int
+		return None, None, None, None
 
 	def solve(self):
 		while not self.fringe.isempty():
