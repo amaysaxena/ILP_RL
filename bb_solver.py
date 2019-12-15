@@ -21,7 +21,7 @@ class DFSFringe(object):
 Solution = namedtuple('Solution', ['solution', 'objective_value', 'is_integer'])
 
 def is_integer(a, tol=1e-3):
-	return min(abs(a - np.floor(a)), abs(a - np.ceil(a))) < tol
+	return np.all(np.abs(a - np.rint(a)) < tol)
 
 class LPProblem(object):
 	def __init__(self, A, b, c):
@@ -38,8 +38,7 @@ class LPProblem(object):
 		res = self.problem.solve(verbose=verbose, solver=cp.SCS)
 		if self.problem.status in ['infeasible', 'unbounded']:
 			return None
-		check_integer = all(is_integer(x) for x in self.x.value)
-		return Solution(self.x.value, res, check_integer)
+		return Solution(self.x.value, res, is_integer(self.x.value))
 
 	def branch_on(self, index, value):
 		new_prob1 = LPProblem(np.vstack((self.A, np.eye(self.A.shape[1])[index])),
@@ -83,25 +82,28 @@ class BBSolver(object):
 
 		self.num_problems_expanded = 0
 
+	def step(self):
+		problem = self.fringe.pop()
+		sol = problem.solve()
+		self.num_problems_expanded += 1
+		print("Problems Expanded:", self.num_problems_expanded)
+		if sol:
+			x, value, is_int = sol
+			if value > self.best_objective - 1e-4:
+				pass # Even relaxed solution is terrible. Abandon node.
+			elif is_int:
+				# New best integral solution found.
+				self.best_solution = x
+				self.best_objective = value
+			else:
+				# Gotta branch
+				index_to_branch = self.heuristic(problem.A, problem.b, problem.c, x)
+				for prob in problem.branch_on(index_to_branch, x[index_to_branch]):
+					self.fringe.push(prob)
+
 	def solve(self):
 		while not self.fringe.isempty():
-			problem = self.fringe.pop()
-			sol = problem.solve()
-			self.num_problems_expanded += 1
-			print("Problems Expanded:", self.num_problems_expanded)
-			if sol:
-				x, value, is_int = sol
-				if value > self.best_objective - 1e-4:
-					continue # Even relaxed solution is terrible. Abandon node.
-				elif is_int:
-					# New best integral solution found.
-					self.best_solution = x
-					self.best_objective = value
-				else:
-					# Gotta branch
-					index_to_branch = self.heuristic(problem.A, problem.b, problem.c, x)
-					for prob in problem.branch_on(index_to_branch, x[index_to_branch]):
-						self.fringe.push(prob)
+			self.step()
 		return self.best_solution, self.best_objective
 
 def random_heuristic(A, b, c, x):
@@ -111,11 +113,12 @@ def random_heuristic(A, b, c, x):
 def main():
 	np.random.seed(125)
 	A, b, c = random_maxcut_instance(30, 50, list(9*np.random.uniform(size=100)))
+	print(c)
 	print("m, n =", A.shape)
 	solver = BBSolver(A, b, c, DFSFringe, random_heuristic)
 	sol, obj = solver.solve()
 	print("Solution:", np.rint(sol))
-	print("Objective:", int(obj))
+	print("Objective:", obj)
 	print("Problems Expanded:", solver.num_problems_expanded)
 
 if __name__ == '__main__':
