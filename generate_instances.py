@@ -55,8 +55,8 @@ def random_maxcut_instance(n_vertices, n_edges, weight_population=None):
         b[2 * n_edges + i] = 1
 
     for u in range(n_vertices):
-        A[3 * n_vertices + u, u] = 1
-        b[3 * n_vertices + u] = 1
+        A[3 * n_edges + u, u] = 1
+        b[3 * n_edges + u] = 1
 
     return A, b, c
 

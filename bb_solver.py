@@ -86,7 +86,8 @@ class BBSolver(object):
 		problem = self.fringe.pop()
 		sol = problem.solve()
 		self.num_problems_expanded += 1
-		print("Problems Expanded:", self.num_problems_expanded)
+		# print("Problems Expanded:", self.num_problems_expanded)
+		branched = False
 		if sol:
 			x, value, is_int = sol
 			if value > self.best_objective - 1e-4:
@@ -100,8 +101,9 @@ class BBSolver(object):
 				index_to_branch = self.heuristic(problem.A, problem.b, problem.c, x)
 				for prob in problem.branch_on(index_to_branch, x[index_to_branch]):
 					self.fringe.push(prob)
-			return problem, x, value, is_int
-		return None, None, None, None
+				branched = True
+			return problem, x, value, is_int, branched
+		return None, None, None, None, branched
 
 	def solve(self):
 		while not self.fringe.isempty():
