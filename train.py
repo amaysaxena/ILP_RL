@@ -57,6 +57,7 @@ class ESTrainer(object):
                     done = True
                 else:
                     reward += (self.gamma ** t) * (-10)
+            t += 1
         return reward, solver.num_problems_expanded
 
     def get_param_shapes(self):
