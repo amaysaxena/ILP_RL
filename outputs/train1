@@ -1,0 +1,8 @@
+Using Python-MIP package version 1.5.3
+Beginning Training...
+========= Iteration 0 =========
+Episode 0 Reward 640.0
+Episode 1 Reward 950.0
+Episode 2 Reward 880.0
+Episode 3 Reward 960.0
+Failure:Interrupted
