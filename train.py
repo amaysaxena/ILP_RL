@@ -102,9 +102,9 @@ class ESTrainer(object):
         As, bs, cs = training_data
         for it in range(self.max_updates):
             print("========= Iteration " + str(it) + " =========")
-            ind = torch.randint(high=len(As), size=(self.n,))
+            ind = torch.randint(high=len(As), size=(1,)).item()
             A, b, c = As[ind], bs[ind], cs[ind]
-            self.update_once(A, b, c)
+            self.update_once([A] * self.n, [b] * self.n, [c] * self.n)
         t1 = time.time()
         print("Training Time:", dattime.timedelta(seconds=t1 - t0))
 
