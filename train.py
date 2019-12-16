@@ -84,8 +84,8 @@ class ESTrainer(object):
             p.data += scale * d
 
     def update_once(self, As, bs, cs):
-        noise_ind = torch.randint(high=self.num_noise, size=(self.n // 2,))
-        noise_ind = torch.cat([noise_ind, self.num_noise//2 + noise_ind])
+        noise_ind = torch.randint(high=self.num_noise // 2, size=(self.n // 2,))
+        noise_ind = torch.cat([noise_ind, self.num_noise // 2 + noise_ind])
         to_update = [torch.zeros(size=shape) for shape in self.param_shapes]
         total_reward = 0
 
@@ -144,7 +144,7 @@ def main(dataset):
     m, n = As[0].shape
     As, bs, cs = torch.FloatTensor(As), torch.FloatTensor(bs), torch.FloatTensor(cs)
     model = BBModel(n, m)
-    trainer = ESTrainer(0.2, 0.01, 0.999, 1000, model)
+    trainer = ESTrainer(0.2, 0.02, 0.999, 1000, model)
     trainer.train((As, bs, cs))
 
 if __name__ == '__main__':
