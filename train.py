@@ -23,7 +23,8 @@ def model_with_new_params(model, deltas, scale):
 
 class ESTrainer(object):
     def __init__(self, sigma, lr, gamma, horizon, model,
-        num_epsiodes_per_update=10, num_noise=15000, max_updates=1000):
+        num_epsiodes_per_update=10, num_noise=15000, max_updates=1000,
+        save_every=50):
 
         self.sigma = sigma
         self.lr = lr
@@ -36,6 +37,7 @@ class ESTrainer(object):
         self.param_shapes = [tuple(x.data.shape) for x in self.model.parameters()]
         self.max_updates = max_updates
         self.heuristic = get_heuristic_from(self.model)
+        self.save_every = save_every
 
     def run_epsiode(self, instance):
         """
@@ -52,8 +54,8 @@ class ESTrainer(object):
                 done = True
             else:
                 problem, x, value, is_int, branched = solver.step()
-                if is_int:
-                    reward += (self.gamma ** t) * 1000
+                if solver.fringe.isempty():
+                    reward += (self.gamma ** t) * 500
                     done = True
                 else:
                     reward += (self.gamma ** t) * (-10)
@@ -70,7 +72,9 @@ class ESTrainer(object):
         shapes = self.get_param_shapes()
         noise = []
         for shape in shapes:
-            noise.append(torch.normal(0.0, 1.0, size=(num_samples,) + shape))
+            eps = torch.normal(0.0, 1.0, size=(num_samples // 2,) + shape)
+            eps = torch.cat([eps, -eps])
+            noise.append(eps)
         return noise
 
     def update_weights(self, delta, scale):
@@ -97,28 +101,42 @@ class ESTrainer(object):
         print()
 
     def train(self, training_data):
-        print("Beginning Training...")
+        now = datetime.datetime.now()
+        dt_string = now.strftime("%d-%m-%Y--%H:%M:%S")
+        print("Beginning Training at " + dt_string + "...")
         t0 = time.time()
         As, bs, cs = training_data
         for it in range(self.max_updates):
             print("========= Iteration " + str(it) + " =========")
+            print("Time since start:", datetime.timedelta(seconds=time.time() - t0))
             ind = torch.randint(high=len(As), size=(1,)).item()
             A, b, c = As[ind], bs[ind], cs[ind]
             self.update_once([A] * self.n, [b] * self.n, [c] * self.n)
+            
+            if it % self.save_every == 0:
+                self.save_model('model-'+dt_string+'-iter-'+str(it))
+
         t1 = time.time()
-        print("Training Time:", dattime.timedelta(seconds=t1 - t0))
+        print("Training Time:", datetime.timedelta(seconds=t1 - t0))
+
+    def save_model(self, name):
+        torch.save(self.model.state_dict(), 'models/' + name)
+
+    def load_model(self, path):
+        self.model.load_state_dict(torch.load(path))
 
 def generate_and_save_training_dataset():
     As, bs, cs = [], [], []
     for _ in range(30):
-        A, b, c = random_packing_instance(20, 20, list(range(6)), list(range(1, 10)))
+        A, b, c = random_maxcut_instance(20, 40, list(10*np.random.uniform(size=100)))
+        #random_packing_instance(20, 20, list(range(6)), list(range(1, 10)))
         As.append(A)
         bs.append(b)
         cs.append(c)
-    np.savez('data/train', A=np.array(As), b=np.array(bs), c=np.array(cs))
+    np.savez('data/train-maxcut', A=np.array(As), b=np.array(bs), c=np.array(cs))
 
-def main():
-    data = np.load('data/train.npz')
+def main(dataset):
+    data = np.load('data/' + dataset)
     As, bs, cs = data['A'], data['b'], data['c']
     m, n = As[0].shape
     As, bs, cs = torch.FloatTensor(As), torch.FloatTensor(bs), torch.FloatTensor(cs)
@@ -127,4 +145,5 @@ def main():
     trainer.train((As, bs, cs))
 
 if __name__ == '__main__':
-    main()
+    main('train-maxcut.npz')
+    # generate_and_save_training_dataset()

@@ -59,8 +59,8 @@ def get_heuristic_from(model):
 
 def rl_heuristic_example():
     np.random.seed(125)
-    A, b, c = random_packing_instance(20, 20, list(range(6)), list(range(1, 10))) #5 * np.random.uniform(size=100)
-    #random_maxcut_instance(30, 50, list(10*np.random.uniform(size=100)))
+    # A, b, c = random_packing_instance(20, 20, list(range(6)), list(range(1, 10))) #5 * np.random.uniform(size=100)
+    A, b, c = random_maxcut_instance(30, 60, list(10*np.random.uniform(size=100)))
     m, n = A.shape
     print(m, n)
     rl_heuristic = get_heuristic_from(BBModel(n, m))
