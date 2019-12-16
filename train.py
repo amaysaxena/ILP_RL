@@ -82,7 +82,8 @@ class ESTrainer(object):
             p.data += scale * d
 
     def update_once(self, As, bs, cs):
-        noise_ind = torch.randint(high=self.num_noise, size=(self.n,))
+        noise_ind = torch.randint(high=self.num_noise, size=(self.n // 2,))
+        noise_ind = torch.cat([noise_ind, self.num_noise//2 + noise_ind])
         to_update = [torch.zeros(size=shape) for shape in self.param_shapes]
         total_reward = 0
 
