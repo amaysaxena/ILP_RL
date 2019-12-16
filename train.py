@@ -55,10 +55,12 @@ class ESTrainer(object):
             else:
                 problem, x, value, is_int, branched = solver.step()
                 if solver.fringe.isempty():
-                    reward += (self.gamma ** t) * 500
+                    reward += (self.gamma ** t) * 2000
                     done = True
+                elif is_int:
+                    reward += (self.gamma ** t) * 50
                 else:
-                    reward += (self.gamma ** t) * (-10)
+                    reward += (self.gamma ** t) * (-15)
             t += 1
         return reward, solver.num_problems_expanded
 
@@ -142,7 +144,7 @@ def main(dataset):
     m, n = As[0].shape
     As, bs, cs = torch.FloatTensor(As), torch.FloatTensor(bs), torch.FloatTensor(cs)
     model = BBModel(n, m)
-    trainer = ESTrainer(0.2, 0.01, 0.999, 500, model)
+    trainer = ESTrainer(0.2, 0.01, 0.999, 1000, model)
     trainer.train((As, bs, cs))
 
 if __name__ == '__main__':
