@@ -18,6 +18,19 @@ class DFSFringe(object):
     def isempty(self):
         return len(self.fringe) == 0
 
+class BFSFringe(object):
+    def __init__(self):
+        self.fringe = deque([])
+
+    def push(self, item):
+        self.fringe.append(item)
+
+    def pop(self):
+        return self.fringe.popleft()
+
+    def isempty(self):
+        return len(self.fringe) == 0
+
 Solution = namedtuple('Solution', ['solution', 'objective_value', 'is_integer'])
 
 def is_integer(a, tol=1e-3):
@@ -114,8 +127,12 @@ def random_heuristic(A, b, c, x):
     nonint = [i for i, v in enumerate(x) if not is_integer(v)]
     return random.choice(nonint)
 
+def nonint_heuristic(A, b, c, x):
+    nonint = [i for i, v in enumerate(x) if not is_integer(v)]
+    dev = [abs(x[i] - np.rint(x[i])) for i in nonint]
+    return nonint[np.argmax(dev)]
+
 def main():
-    np.random.seed(125)
     data = np.load('data/train-maxcut.npz')
     As, bs, cs = data['A'], data['b'], data['c']
     # A, b, c = random_maxcut_instance(30, 50, list(9*np.random.uniform(size=100)))
@@ -128,4 +145,11 @@ def main():
         print("Problems Expanded:", solver.num_problems_expanded)
 
 if __name__ == '__main__':
-    main()
+    # main()
+    A, b, c = random_knapsack_instance(20, 10*np.random.uniform(size=100), 10*np.random.uniform(size=100), 20 + 40*np.random.uniform(size=100))
+    print("m, n =", A.shape)
+    solver = BBSolver(A, b, c, DFSFringe, nonint_heuristic)
+    sol, obj = solver.solve()
+    print("Solution:", np.rint(sol))
+    print("Objective:", obj)
+    print("Problems Expanded:", solver.num_problems_expanded)

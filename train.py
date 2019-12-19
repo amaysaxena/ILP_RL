@@ -1,9 +1,9 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 import time
 import numpy as np
-from bb_solver import is_integer, BBSolver, DFSFringe, random_heuristic
+from bb_solver import is_integer, BBSolver, DFSFringe, BFSFringe, random_heuristic, nonint_heuristic
 from generate_instances import random_maxcut_instance, random_packing_instance, random_knapsack_instance
-from bb_agent_torch import BBModel, get_heuristic_from
+from bb_agent_torch import BBModel, BBModel2, BBModel2Big, get_heuristic_from
 
 from contextlib import contextmanager
 import torch
@@ -22,10 +22,11 @@ def model_with_new_params(model, deltas, scale):
         p.data = old_p
 
 class ESTrainer(object):
-    def __init__(self, sigma, lr, gamma, horizon, model,
-        num_epsiodes_per_update=10, num_noise=15000, max_updates=1000,
+    def __init__(self, sigma, lr, gamma, horizon, model, fringe_maker,
+        num_epsiodes_per_update=10, num_noise=20000, max_updates=1100,
         save_every=50):
 
+        self.fringe_maker = fringe_maker
         self.sigma = sigma
         self.lr = lr
         self.gamma = gamma
@@ -45,7 +46,7 @@ class ESTrainer(object):
         """
         A, b, c = instance
         m, n = A.shape
-        solver = BBSolver(np.array(A), np.array(b), np.array(c), DFSFringe, self.heuristic)
+        solver = BBSolver(np.array(A), np.array(b), np.array(c), self.fringe_maker, self.heuristic)
         reward = 0
         done = False
         t = 0
@@ -128,25 +129,83 @@ class ESTrainer(object):
     def load_model(self, path):
         self.model.load_state_dict(torch.load(path))
 
-def generate_and_save_training_dataset():
+def generate_and_save_training_dataset(name):
     As, bs, cs = [], [], []
     for _ in range(30):
-        A, b, c = random_maxcut_instance(20, 40, list(10*np.random.uniform(size=100)))
-        #random_packing_instance(20, 20, list(range(6)), list(range(1, 10)))
+        #A, b, c = random_knapsack_instance(20, 10*np.random.uniform(size=100), 10*np.random.uniform(size=100), 20 + 40*np.random.uniform(size=100))
+        #A, b, c = random_maxcut_instance(20, 40, list(10*np.random.uniform(size=100)))
+        A, b, c = random_packing_instance(10, 10, list(range(6)), list(range(1, 10)))
         As.append(A)
         bs.append(b)
         cs.append(c)
-    np.savez('data/train-maxcut', A=np.array(As), b=np.array(bs), c=np.array(cs))
+    np.savez('data/' + name, A=np.array(As), b=np.array(bs), c=np.array(cs))
 
-def main(dataset):
+def main(dataset, model_maker, fringe_maker):
     data = np.load('data/' + dataset)
     As, bs, cs = data['A'], data['b'], data['c']
     m, n = As[0].shape
     As, bs, cs = torch.FloatTensor(As), torch.FloatTensor(bs), torch.FloatTensor(cs)
-    model = BBModel(n, m)
-    trainer = ESTrainer(0.2, 0.02, 0.999, 1000, model)
+    model = model_maker(n, m)
+    trainer = ESTrainer(0.2, 0.025, 1.0, 1000, model, fringe_maker, max_updates=1200)
     trainer.train((As, bs, cs))
 
+
+def eval_nonint_heuristic(dataset, fringe_maker):
+    data = np.load('data/' + dataset)
+    As, bs, cs = data['A'], data['b'], data['c']
+    m, n = As[0].shape
+    print("m, n =", m, n)
+    num_expanded = []
+    for A,b,c in zip(As, bs, cs):
+        solver = BBSolver(A, b, c, fringe_maker, nonint_heuristic)
+        sol, obj = solver.solve()
+        # print("Solution:", np.rint(sol))
+        # print("Objective:", obj)
+        print("Problems Expanded:", solver.num_problems_expanded)
+        num_expanded.append(solver.num_problems_expanded)
+    print(num_expanded)
+    print(np.mean(num_expanded))
+
+
+def eval_random_heuristic(dataset, fringe_maker, num_trials):
+    data = np.load('data/' + dataset)
+    As, bs, cs = data['A'], data['b'], data['c']
+    m, n = As[0].shape
+    print("m, n =", m, n)
+    
+    average_expanded = np.zeros(len(As))
+    for _ in range(num_trials):
+        print("Doing Trial", _)
+        for i, (A,b,c) in enumerate(zip(As, bs, cs)):
+            solver = BBSolver(A, b, c, fringe_maker, random_heuristic)
+            sol, obj = solver.solve()
+            average_expanded[i] += solver.num_problems_expanded
+    print(list(average_expanded / num_trials))
+    print(np.mean(average_expanded / num_trials))
+
+def eval(dataset, model_path, model_maker, fringe_maker):
+    data = np.load('data/' + dataset)
+    As, bs, cs = data['A'], data['b'], data['c']
+    m, n = As[0].shape
+    print("m, n =", m, n)
+    model = model_maker(n, m)
+    model.load_state_dict(torch.load("models/" + model_path))
+    heuristic = get_heuristic_from(model, train=False)
+    num_expanded = []
+    for A,b,c in zip(As, bs, cs):
+        solver = BBSolver(A, b, c, fringe_maker, heuristic)
+        sol, obj = solver.solve()
+        # print("Solution:", np.rint(sol))
+        # print("Objective:", obj)
+        print("Problems Expanded:", solver.num_problems_expanded)
+        num_expanded.append(solver.num_problems_expanded)
+    print(num_expanded)
+    print(np.mean(num_expanded))
+
 if __name__ == '__main__':
-    main('train-maxcut.npz')
-    # generate_and_save_training_dataset()
+    # main('train-packing.npz', BBModel2Big, DFSFringe)
+    eval("train-maxcut.npz", "model-16-12-2019--19:41:46-iter-950", BBModel, BFSFringe)
+    # eval("train-knapsack.npz", "model-17-12-2019--01:07:26-iter-1950", BBModel2, DFSFringe)
+    # eval_random_heuristic("train-packing.npz", DFSFringe, 7)
+    # eval_nonint_heuristic("train-packing.npz", DFSFringe)
+    # generate_and_save_training_dataset('train-packing')
