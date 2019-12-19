@@ -159,8 +159,6 @@ def eval_nonint_heuristic(dataset, fringe_maker):
     for A,b,c in zip(As, bs, cs):
         solver = BBSolver(A, b, c, fringe_maker, nonint_heuristic)
         sol, obj = solver.solve()
-        # print("Solution:", np.rint(sol))
-        # print("Objective:", obj)
         print("Problems Expanded:", solver.num_problems_expanded)
         num_expanded.append(solver.num_problems_expanded)
     print(num_expanded)
@@ -195,17 +193,10 @@ def eval(dataset, model_path, model_maker, fringe_maker):
     for A,b,c in zip(As, bs, cs):
         solver = BBSolver(A, b, c, fringe_maker, heuristic)
         sol, obj = solver.solve()
-        # print("Solution:", np.rint(sol))
-        # print("Objective:", obj)
         print("Problems Expanded:", solver.num_problems_expanded)
         num_expanded.append(solver.num_problems_expanded)
     print(num_expanded)
     print(np.mean(num_expanded))
 
 if __name__ == '__main__':
-    # main('train-packing.npz', BBModel2Big, DFSFringe)
-    eval("train-maxcut.npz", "model-16-12-2019--19:41:46-iter-950", BBModel, BFSFringe)
-    # eval("train-knapsack.npz", "model-17-12-2019--01:07:26-iter-1950", BBModel2, DFSFringe)
-    # eval_random_heuristic("train-packing.npz", DFSFringe, 7)
-    # eval_nonint_heuristic("train-packing.npz", DFSFringe)
-    # generate_and_save_training_dataset('train-packing')
+     main('train-maxcut.npz', BBModel, DFSFringe)
